@@ -1,0 +1,351 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Interface Illuminate\Contracts\Bus\Dispatcher |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Contracts.html">Contracts</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Contracts.Bus.html">Bus</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Interfaces</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Contracts.Bus.Dispatcher.html">
+							Dispatcher
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Contracts.Bus.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Contracts.Bus.Dispatcher.html">Interface</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Interface <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Contracts.html">Contracts</a>\<a href="namespace-Illuminate.Contracts.Bus.html">Bus</a>\<a href="Illuminate.Contracts.Bus.Dispatcher.html">Dispatcher</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="dispatch" id="_dispatch">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>dispatch(<span>mixed <var>$command</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Dispatch a command to its appropriate handler.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Dispatch a command to its appropriate handler.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_dispatch">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dispatchSync" id="_dispatchSync">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>dispatchSync(<span>mixed <var>$command</var></span>, <span>mixed <var>$handler</var> = <span class="php-kw">null</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Dispatch a command to its appropriate handler in the current process.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Dispatch a command to its appropriate handler in the current process.</p>
+<p>Queueable jobs will be dispatched to the &quot;sync&quot; queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_dispatchSync">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dispatchNow" id="_dispatchNow">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>dispatchNow(<span>mixed <var>$command</var></span>, <span>mixed <var>$handler</var> = <span class="php-kw">null</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Dispatch a command to its appropriate handler in the current process.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Dispatch a command to its appropriate handler in the current process.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_dispatchNow">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasCommandHandler" id="_hasCommandHandler">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasCommandHandler(<span>mixed <var>$command</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given command has a handler.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given command has a handler.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasCommandHandler">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getCommandHandler" id="_getCommandHandler">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getCommandHandler(<span>mixed <var>$command</var></span>): bool|mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Retrieve the handler for a command.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Retrieve the handler for a command.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getCommandHandler">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pipeThrough" id="_pipeThrough">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pipeThrough(<span>array <var>$pipes</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the pipes commands should be piped through before dispatching.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the pipes commands should be piped through before dispatching.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pipeThrough">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="map" id="_map">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>map(<span>array <var>$map</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Map a command to a handler.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Map a command to a handler.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_map">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

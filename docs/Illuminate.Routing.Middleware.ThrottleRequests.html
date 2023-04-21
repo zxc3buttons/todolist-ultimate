@@ -1,0 +1,619 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Routing\Middleware\ThrottleRequests |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Routing.html">Routing</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Routing.Middleware.html">Middleware</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Routing.Middleware.SubstituteBindings.html">
+							SubstituteBindings
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Routing.Middleware.ThrottleRequests.html">
+							ThrottleRequests
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html">
+							ThrottleRequestsWithRedis
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Routing.Middleware.ValidateSignature.html">
+							ValidateSignature
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Routing.Middleware.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Routing.Middleware.ThrottleRequests.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Routing.html">Routing</a>\<a href="namespace-Illuminate.Routing.Middleware.html">Middleware</a>\<a href="Illuminate.Routing.Middleware.ThrottleRequests.html">ThrottleRequests</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Routing\Middleware\ThrottleRequests</span></b>
+
+
+		uses
+			<a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a>
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html"><span>Illuminate\Routing\Middleware\ThrottleRequestsWithRedis</span></a>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Cache.RateLimiter.html"><span title="Illuminate\Cache\RateLimiter">RateLimiter</span></a> <var>$limiter</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new request throttler.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new request throttler.</p>
+</div>
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html#___construct">						<code>Illuminate\Routing\Middleware\ThrottleRequestsWithRedis::__construct()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handle" id="_handle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handle(
+	<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>,
+	<span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>,
+	<span>int|string <var>$maxAttempts</var> = <span class="php-num">60</span></span>,
+	<span>float|int <var>$decayMinutes</var> = <span class="php-num">1</span></span>,
+	<span>string <var>$prefix</var> = <span class="php-str">''</span></span>,
+): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming request.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Http.Exceptions.ThrottleRequestsException.html"><span>Illuminate\Http\Exceptions\ThrottleRequestsException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handleRequestUsingNamedLimiter" id="_handleRequestUsingNamedLimiter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handleRequestUsingNamedLimiter(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>, <span>string <var>$limiterName</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$limiter</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming request.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Http.Exceptions.ThrottleRequestsException.html"><span>Illuminate\Http\Exceptions\ThrottleRequestsException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handleRequestUsingNamedLimiter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handleRequest" id="_handleRequest">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handleRequest(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>, <span>array <var>$limits</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming request.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Http.Exceptions.ThrottleRequestsException.html"><span>Illuminate\Http\Exceptions\ThrottleRequestsException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html#_handleRequest">						<code>Illuminate\Routing\Middleware\ThrottleRequestsWithRedis::handleRequest()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handleRequest">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resolveMaxAttempts" id="_resolveMaxAttempts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resolveMaxAttempts(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span>int|string <var>$maxAttempts</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Resolve the number of attempts if the user is authenticated or not.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Resolve the number of attempts if the user is authenticated or not.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resolveMaxAttempts">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resolveRequestSignature" id="_resolveRequestSignature">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resolveRequestSignature(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Resolve request signature.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Resolve request signature.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="RuntimeException.html"><span>RuntimeException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resolveRequestSignature">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildException" id="_buildException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildException(
+	<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>,
+	<span>string <var>$key</var></span>,
+	<span>int <var>$maxAttempts</var></span>,
+	<span>callable|null <var>$responseCallback</var> = <span class="php-kw">null</span></span>,
+): <a href="Illuminate.Http.Exceptions.ThrottleRequestsException.html"><span title="Illuminate\Http\Exceptions\ThrottleRequestsException">ThrottleRequestsException</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a 'too many attempts' exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a 'too many attempts' exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getTimeUntilNextRetry" id="_getTimeUntilNextRetry">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getTimeUntilNextRetry(<span>string <var>$key</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the number of seconds until the next retry.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the number of seconds until the next retry.</p>
+</div>
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html#_getTimeUntilNextRetry">						<code>Illuminate\Routing\Middleware\ThrottleRequestsWithRedis::getTimeUntilNextRetry()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getTimeUntilNextRetry">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="addHeaders" id="_addHeaders">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>addHeaders(<span><a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a> <var>$response</var></span>, <span>int <var>$maxAttempts</var></span>, <span>int <var>$remainingAttempts</var></span>, <span>int|null <var>$retryAfter</var> = <span class="php-kw">null</span></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Add the limit header information to the given response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add the limit header information to the given response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_addHeaders">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getHeaders" id="_getHeaders">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getHeaders(<span>int <var>$maxAttempts</var></span>, <span>int <var>$remainingAttempts</var></span>, <span>int|null <var>$retryAfter</var> = <span class="php-kw">null</span></span>, <span><a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a>|null <var>$response</var> = <span class="php-kw">null</span></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the limit headers information.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the limit headers information.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getHeaders">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="calculateRemainingAttempts" id="_calculateRemainingAttempts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>calculateRemainingAttempts(<span>string <var>$key</var></span>, <span>int <var>$maxAttempts</var></span>, <span>int|null <var>$retryAfter</var> = <span class="php-kw">null</span></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Calculate the number of remaining attempts.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Calculate the number of remaining attempts.</p>
+</div>
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html#_calculateRemainingAttempts">						<code>Illuminate\Routing\Middleware\ThrottleRequestsWithRedis::calculateRemainingAttempts()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_calculateRemainingAttempts">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.InteractsWithTime.html"><span>Illuminate\Support\InteractsWithTime</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.InteractsWithTime.html#_secondsUntil">secondsUntil()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_availableAt">availableAt()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_parseDateInterval">parseDateInterval()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_currentTime">currentTime()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="limiter" id="$limiter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Cache.RateLimiter.html"><span title="Illuminate\Cache\RateLimiter">RateLimiter</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$limiter</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$limiter">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

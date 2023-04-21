@@ -1,0 +1,295 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Trait Illuminate\Foundation\Validation\ValidatesRequests |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.html">Foundation</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.Validation.html">Validation</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Traits</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Foundation.Validation.ValidatesRequests.html">
+							ValidatesRequests
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Foundation.Validation.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Foundation.Validation.ValidatesRequests.html">Trait</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Trait <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Foundation.html">Foundation</a>\<a href="namespace-Illuminate.Foundation.Validation.html">Validation</a>\<a href="Illuminate.Foundation.Validation.ValidatesRequests.html">ValidatesRequests</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Foundation\Validation\ValidatesRequests</span></b>
+
+
+	<ul class="classTree">
+	<li>
+<a href="App.Http.Controllers.Controller.html"><span>App\Http\Controllers\Controller</span></a>
+
+
+		uses
+			<a href="Illuminate.Foundation.Auth.Access.AuthorizesRequests.html"><span title="Illuminate\Foundation\Auth\Access\AuthorizesRequests">AuthorizesRequests</span></a>, 
+			<b><span class="active" title="Illuminate\Foundation\Validation\ValidatesRequests">ValidatesRequests</span></b>
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="validateWith" id="_validateWith">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>validateWith(<span><a href="Illuminate.Contracts.Validation.Validator.html"><span title="Illuminate\Contracts\Validation\Validator">Validator</span></a>|array <var>$validator</var></span>, <span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a>|null <var>$request</var> = <span class="php-kw">null</span></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Run the validation routine against the given validator.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run the validation routine against the given validator.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Validation.ValidationException.html"><span>Illuminate\Validation\ValidationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_validateWith">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="validate" id="_validate">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>validate(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span>array <var>$rules</var></span>, <span>array <var>$messages</var> = []</span>, <span>array <var>$attributes</var> = []</span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Validate the given request with the given rules.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Validate the given request with the given rules.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Validation.ValidationException.html"><span>Illuminate\Validation\ValidationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_validate">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="validateWithBag" id="_validateWithBag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>validateWithBag(<span>string <var>$errorBag</var></span>, <span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span>array <var>$rules</var></span>, <span>array <var>$messages</var> = []</span>, <span>array <var>$attributes</var> = []</span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Validate the given request with the given rules.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Validate the given request with the given rules.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Validation.ValidationException.html"><span>Illuminate\Validation\ValidationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_validateWithBag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getValidationFactory" id="_getValidationFactory">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getValidationFactory(): <a href="Illuminate.Contracts.Validation.Factory.html"><span title="Illuminate\Contracts\Validation\Factory">Factory</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get a validation factory instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a validation factory instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getValidationFactory">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

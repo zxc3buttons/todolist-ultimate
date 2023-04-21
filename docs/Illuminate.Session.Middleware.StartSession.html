@@ -1,0 +1,695 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Session\Middleware\StartSession |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Session.html">Session</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Session.Middleware.html">Middleware</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Session.Middleware.AuthenticateSession.html">
+							AuthenticateSession
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Session.Middleware.StartSession.html">
+							StartSession
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Session.Middleware.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Session.Middleware.StartSession.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Session.html">Session</a>\<a href="namespace-Illuminate.Session.Middleware.html">Middleware</a>\<a href="Illuminate.Session.Middleware.StartSession.html">StartSession</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Session.SessionManager.html"><span title="Illuminate\Session\SessionManager">SessionManager</span></a> <var>$manager</var></span>, <span>callable|null <var>$cacheFactoryResolver</var> = <span class="php-kw">null</span></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new session middleware.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new session middleware.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handle" id="_handle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handle(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming request.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handleRequestWhileBlocking" id="_handleRequestWhileBlocking">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handleRequestWhileBlocking(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Handle the given request within session state.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle the given request within session state.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handleRequestWhileBlocking">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handleStatefulRequest" id="_handleStatefulRequest">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handleStatefulRequest(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Handle the given request within session state.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle the given request within session state.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handleStatefulRequest">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="startSession" id="_startSession">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>startSession(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>): <a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Start the session for the given request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Start the session for the given request.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_startSession">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getSession" id="_getSession">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getSession(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): <a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the session implementation from the manager.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the session implementation from the manager.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getSession">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="collectGarbage" id="_collectGarbage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>collectGarbage(<span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Remove the garbage from the session if necessary.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Remove the garbage from the session if necessary.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_collectGarbage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="configHitsLottery" id="_configHitsLottery">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>configHitsLottery(<span>array <var>$config</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the configuration odds hit the lottery.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the configuration odds hit the lottery.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_configHitsLottery">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="storeCurrentUrl" id="_storeCurrentUrl">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>storeCurrentUrl(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Store the current URL for the request if necessary.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Store the current URL for the request if necessary.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_storeCurrentUrl">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="addCookieToResponse" id="_addCookieToResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>addCookieToResponse(<span><a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a> <var>$response</var></span>, <span><a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a> <var>$session</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Add the session cookie to the application response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add the session cookie to the application response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_addCookieToResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="saveSession" id="_saveSession">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>saveSession(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Save the session data to storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Save the session data to storage.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_saveSession">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getSessionLifetimeInSeconds" id="_getSessionLifetimeInSeconds">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getSessionLifetimeInSeconds(): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the session lifetime in seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the session lifetime in seconds.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getSessionLifetimeInSeconds">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getCookieExpirationDate" id="_getCookieExpirationDate">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getCookieExpirationDate(): <a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the cookie lifetime in seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the cookie lifetime in seconds.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getCookieExpirationDate">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sessionConfigured" id="_sessionConfigured">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>sessionConfigured(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if a session driver has been configured.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if a session driver has been configured.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sessionConfigured">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sessionIsPersistent" id="_sessionIsPersistent">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>sessionIsPersistent(<span>array|null <var>$config</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the configured session driver is persistent.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the configured session driver is persistent.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sessionIsPersistent">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cache" id="_cache">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>cache(<span>string <var>$driver</var></span>): <span title="Illuminate\Cache\Store">Store</span></code>
+
+
+	<div class="expandable-collapsedView">
+		Resolve the given cache driver.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Resolve the given cache driver.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_cache">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="manager" id="$manager">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Session.SessionManager.html"><span title="Illuminate\Session\SessionManager">SessionManager</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$manager</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$manager">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cacheFactoryResolver" id="$cacheFactoryResolver">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">callable|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$cacheFactoryResolver</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$cacheFactoryResolver">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

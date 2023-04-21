@@ -1,0 +1,637 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Symfony\Component\Mime\Part\TextPart |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Symfony.html">Symfony</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Symfony.Component.html">Component</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Symfony.Component.Mime.html">Mime</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Symfony.Component.Mime.Part.html">Part</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Symfony.Component.Mime.Part.AbstractPart.html">
+							AbstractPart
+						</a>
+					</li>
+					<li>
+						<a href="Symfony.Component.Mime.Part.DataPart.html">
+							DataPart
+						</a>
+					</li>
+					<li>
+						<a href="Symfony.Component.Mime.Part.File.html">
+							File
+						</a>
+					</li>
+					<li class="active">
+						<a href="Symfony.Component.Mime.Part.TextPart.html">
+							TextPart
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Symfony.Component.Mime.Part.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Symfony.Component.Mime.Part.TextPart.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Symfony.html">Symfony</a>\<a href="namespace-Symfony.Component.html">Component</a>\<a href="namespace-Symfony.Component.Mime.html">Mime</a>\<a href="namespace-Symfony.Component.Mime.Part.html">Part</a>\<a href="Symfony.Component.Mime.Part.TextPart.html">TextPart</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Symfony.Component.Mime.Part.AbstractPart.html"><span title="Symfony\Component\Mime\Part\AbstractPart">AbstractPart</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html"><span>Symfony\Component\Mime\Part\AbstractPart</span></a>
+
+
+	<ul class="classTree">
+	<li>
+<b><span class="active">Symfony\Component\Mime\Part\TextPart</span></b>
+
+
+	<ul class="classTree">
+	<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html"><span>Symfony\Component\Mime\Part\DataPart</span></a>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span>resource|string|<a href="Symfony.Component.Mime.Part.File.html"><span title="Symfony\Component\Mime\Part\File">File</span></a> <var>$body</var></span>, <span>?string <var>$charset</var> = <span class="php-str">'utf-8'</span></span>, <span>string <var>$subtype</var> = <span class="php-str">'plain'</span></span>, <span>string <var>$encoding</var> = <span class="php-kw">null</span></span>)</code>
+
+
+
+	<div class="expandable-expandedView">
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$body</var>&nbsp;&nbsp;</td>
+										<td><p>Use a File instance to defer loading the file until rendering</p>
+</td>
+									</tr>
+							</table>
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#___construct">						<code>Symfony\Component\Mime\Part\AbstractPart::__construct()</code></a>				</li>
+		</ul>
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#___construct">						<code>Symfony\Component\Mime\Part\DataPart::__construct()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getMediaType" id="_getMediaType">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getMediaType(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#_getMediaType">						<code>Symfony\Component\Mime\Part\DataPart::getMediaType()</code></a>				</li>
+		</ul>
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_getMediaType">						<code>Symfony\Component\Mime\Part\AbstractPart::getMediaType()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getMediaType">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getMediaSubtype" id="_getMediaSubtype">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getMediaSubtype(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_getMediaSubtype">						<code>Symfony\Component\Mime\Part\AbstractPart::getMediaSubtype()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getMediaSubtype">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setDisposition" id="_setDisposition">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setDisposition(<span>string <var>$disposition</var></span>): $this</code>
+
+
+
+	<div class="expandable-expandedView">
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$disposition</var>&nbsp;&nbsp;</td>
+										<td><p>one of attachment, inline, or form-data</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setDisposition">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setName" id="_setName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setName(<span>string <var>$name</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Sets the name of the file (used by FormDataPart).
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Sets the name of the file (used by FormDataPart).</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getName" id="_getName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getName(): ?string</code>
+
+
+	<div class="expandable-collapsedView">
+		Gets the name of the file.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Gets the name of the file.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getBody" id="_getBody">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getBody(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getBody">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bodyToString" id="_bodyToString">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bodyToString(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_bodyToString">						<code>Symfony\Component\Mime\Part\AbstractPart::bodyToString()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bodyToString">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bodyToIterable" id="_bodyToIterable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bodyToIterable(): iterable</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_bodyToIterable">						<code>Symfony\Component\Mime\Part\AbstractPart::bodyToIterable()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bodyToIterable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getPreparedHeaders" id="_getPreparedHeaders">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getPreparedHeaders(): <a href="Symfony.Component.Mime.Header.Headers.html"><span title="Symfony\Component\Mime\Header\Headers">Headers</span></a></code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_getPreparedHeaders">						<code>Symfony\Component\Mime\Part\AbstractPart::getPreparedHeaders()</code></a>				</li>
+		</ul>
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#_getPreparedHeaders">						<code>Symfony\Component\Mime\Part\DataPart::getPreparedHeaders()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getPreparedHeaders">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="asDebugString" id="_asDebugString">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>asDebugString(): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.AbstractPart.html#_asDebugString">						<code>Symfony\Component\Mime\Part\AbstractPart::asDebugString()</code></a>				</li>
+		</ul>
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#_asDebugString">						<code>Symfony\Component\Mime\Part\DataPart::asDebugString()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_asDebugString">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__sleep" id="___sleep">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__sleep(): array</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#___sleep">						<code>Symfony\Component\Mime\Part\DataPart::__sleep()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___sleep">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__wakeup" id="___wakeup">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__wakeup()</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Mime.Part.DataPart.html#___wakeup">						<code>Symfony\Component\Mime\Part\DataPart::__wakeup()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___wakeup">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Symfony.Component.Mime.Part.AbstractPart.html"><span>Symfony\Component\Mime\Part\AbstractPart</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Symfony.Component.Mime.Part.AbstractPart.html#_getHeaders">getHeaders()</a>, <a href="Symfony.Component.Mime.Part.AbstractPart.html#_toString">toString()</a>, <a href="Symfony.Component.Mime.Part.AbstractPart.html#_toIterable">toIterable()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

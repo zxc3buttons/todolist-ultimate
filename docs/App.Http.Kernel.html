@@ -1,0 +1,304 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Class App\Http\Kernel |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-App.Http.html">Http</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.Controllers.html">Controllers</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.Middleware.html">Middleware</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.Services.html">Services</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="App.Http.Kernel.html">
+							Kernel
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-App.Http.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="App.Http.Kernel.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-App.html">App</a>\<a href="namespace-App.Http.html">Http</a>\<a href="App.Http.Kernel.html">Kernel</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Illuminate.Foundation.Http.Kernel.html"><span title="Illuminate\Foundation\Http\Kernel">Kernel</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Foundation.Http.Kernel.html"><span>Illuminate\Foundation\Http\Kernel</span></a>
+
+		implements
+			<a href="Illuminate.Contracts.Http.Kernel.html"><span title="Illuminate\Contracts\Http\Kernel">Kernel</span></a>
+
+		uses
+			<a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a>
+	<ul class="classTree">
+	<li>
+<b><span class="active">App\Http\Kernel</span></b>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+			<b>Located at</b> <a href="source-Http.Kernel.html#7" title="Go to source code">Http\Kernel.php</a><br>
+		</div>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Illuminate.Foundation.Http.Kernel.html"><span>Illuminate\Foundation\Http\Kernel</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Foundation.Http.Kernel.html#___construct">__construct()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_handle">handle()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_sendRequestThroughRouter">sendRequestThroughRouter()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_bootstrap">bootstrap()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_dispatchToRouter">dispatchToRouter()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_terminate">terminate()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_terminateMiddleware">terminateMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_whenRequestLifecycleIsLongerThan">whenRequestLifecycleIsLongerThan()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_requestStartedAt">requestStartedAt()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_gatherRouteMiddleware">gatherRouteMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_parseMiddleware">parseMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_hasMiddleware">hasMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_prependMiddleware">prependMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_pushMiddleware">pushMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_prependMiddlewareToGroup">prependMiddlewareToGroup()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_appendMiddlewareToGroup">appendMiddlewareToGroup()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_prependToMiddlewarePriority">prependToMiddlewarePriority()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_appendToMiddlewarePriority">appendToMiddlewarePriority()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_syncMiddlewareToRouter">syncMiddlewareToRouter()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_getMiddlewarePriority">getMiddlewarePriority()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_bootstrappers">bootstrappers()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_reportException">reportException()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_renderException">renderException()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_getMiddlewareGroups">getMiddlewareGroups()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_getRouteMiddleware" class="deprecated">getRouteMiddleware()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_getMiddlewareAliases">getMiddlewareAliases()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_getApplication">getApplication()</a>, <a href="Illuminate.Foundation.Http.Kernel.html#_setApplication">setApplication()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.InteractsWithTime.html"><span>Illuminate\Support\InteractsWithTime</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.InteractsWithTime.html#_secondsUntil">secondsUntil()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_availableAt">availableAt()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_parseDateInterval">parseDateInterval()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_currentTime">currentTime()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="middleware" id="$middleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;int, class-string|string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var><a href="source-Http.Kernel.html#9-24" title="Go to source code">$middleware</a></var> = [
+	<a href="App.Http.Middleware.TrustProxies.html"><span title="App\Http\Middleware\TrustProxies">TrustProxies</span></a>::class,
+	<a href="Illuminate.Http.Middleware.HandleCors.html"><span title="Illuminate\Http\Middleware\HandleCors">HandleCors</span></a>::class,
+	<a href="App.Http.Middleware.PreventRequestsDuringMaintenance.html"><span title="App\Http\Middleware\PreventRequestsDuringMaintenance">PreventRequestsDuringMaintenance</span></a>::class,
+	<a href="Illuminate.Foundation.Http.Middleware.ValidatePostSize.html"><span title="Illuminate\Foundation\Http\Middleware\ValidatePostSize">ValidatePostSize</span></a>::class,
+	<a href="App.Http.Middleware.TrimStrings.html"><span title="App\Http\Middleware\TrimStrings">TrimStrings</span></a>::class,
+	<a href="Illuminate.Foundation.Http.Middleware.ConvertEmptyStringsToNull.html"><span title="Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull">ConvertEmptyStringsToNull</span></a>::class,
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middlewareGroups" id="$middlewareGroups">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, array&lt;int, class-string|string&gt;&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var><a href="source-Http.Kernel.html#26-46" title="Go to source code">$middlewareGroups</a></var> = [
+	<span class="php-str">'web'</span> =&gt; [
+		<a href="App.Http.Middleware.EncryptCookies.html"><span title="App\Http\Middleware\EncryptCookies">EncryptCookies</span></a>::class,
+		<a href="Illuminate.Cookie.Middleware.AddQueuedCookiesToResponse.html"><span title="Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse">AddQueuedCookiesToResponse</span></a>::class,
+		<a href="Illuminate.Session.Middleware.StartSession.html"><span title="Illuminate\Session\Middleware\StartSession">StartSession</span></a>::class,
+		<a href="Illuminate.View.Middleware.ShareErrorsFromSession.html"><span title="Illuminate\View\Middleware\ShareErrorsFromSession">ShareErrorsFromSession</span></a>::class,
+		<a href="App.Http.Middleware.VerifyCsrfToken.html"><span title="App\Http\Middleware\VerifyCsrfToken">VerifyCsrfToken</span></a>::class,
+		<a href="Illuminate.Routing.Middleware.SubstituteBindings.html"><span title="Illuminate\Routing\Middleware\SubstituteBindings">SubstituteBindings</span></a>::class,
+	],
+	<span class="php-str">'api'</span> =&gt; [<a href="Illuminate.Routing.Middleware.ThrottleRequests.html"><span title="Illuminate\Routing\Middleware\ThrottleRequests">ThrottleRequests</span></a>::class . <span class="php-str">':api'</span>, <a href="Illuminate.Routing.Middleware.SubstituteBindings.html"><span title="Illuminate\Routing\Middleware\SubstituteBindings">SubstituteBindings</span></a>::class],
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middlewareGroups">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middlewareAliases" id="$middlewareAliases">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, class-string|string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var><a href="source-Http.Kernel.html#48-66" title="Go to source code">$middlewareAliases</a></var> = [
+	<span class="php-str">'auth'</span> =&gt; <a href="App.Http.Middleware.Authenticate.html"><span title="App\Http\Middleware\Authenticate">Authenticate</span></a>::class,
+	<span class="php-str">'auth.basic'</span> =&gt; <a href="Illuminate.Auth.Middleware.AuthenticateWithBasicAuth.html"><span title="Illuminate\Auth\Middleware\AuthenticateWithBasicAuth">AuthenticateWithBasicAuth</span></a>::class,
+	<span class="php-str">'auth.session'</span> =&gt; <a href="Illuminate.Session.Middleware.AuthenticateSession.html"><span title="Illuminate\Session\Middleware\AuthenticateSession">AuthenticateSession</span></a>::class,
+	<span class="php-str">'cache.headers'</span> =&gt; <a href="Illuminate.Http.Middleware.SetCacheHeaders.html"><span title="Illuminate\Http\Middleware\SetCacheHeaders">SetCacheHeaders</span></a>::class,
+	<span class="php-str">'can'</span> =&gt; <a href="Illuminate.Auth.Middleware.Authorize.html"><span title="Illuminate\Auth\Middleware\Authorize">Authorize</span></a>::class,
+	<span class="php-str">'guest'</span> =&gt; <a href="App.Http.Middleware.RedirectIfAuthenticated.html"><span title="App\Http\Middleware\RedirectIfAuthenticated">RedirectIfAuthenticated</span></a>::class,
+	<span class="php-str">'password.confirm'</span> =&gt; <a href="Illuminate.Auth.Middleware.RequirePassword.html"><span title="Illuminate\Auth\Middleware\RequirePassword">RequirePassword</span></a>::class,
+	<span class="php-str">'signed'</span> =&gt; <a href="App.Http.Middleware.ValidateSignature.html"><span title="App\Http\Middleware\ValidateSignature">ValidateSignature</span></a>::class,
+	<span class="php-str">'throttle'</span> =&gt; <a href="Illuminate.Routing.Middleware.ThrottleRequests.html"><span title="Illuminate\Routing\Middleware\ThrottleRequests">ThrottleRequests</span></a>::class,
+	<span class="php-str">'verified'</span> =&gt; <a href="Illuminate.Auth.Middleware.EnsureEmailIsVerified.html"><span title="Illuminate\Auth\Middleware\EnsureEmailIsVerified">EnsureEmailIsVerified</span></a>::class,
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middlewareAliases">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties inherited from <a href="Illuminate.Foundation.Http.Kernel.html"><span>Illuminate\Foundation\Http\Kernel</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Foundation.Http.Kernel.html#$app">$app</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$router">$router</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$bootstrappers">$bootstrappers</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$routeMiddleware" class="deprecated">$routeMiddleware</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$requestLifecycleDurationHandlers">$requestLifecycleDurationHandlers</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$requestStartedAt">$requestStartedAt</a></var>, <var><a href="Illuminate.Foundation.Http.Kernel.html#$middlewarePriority">$middlewarePriority</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

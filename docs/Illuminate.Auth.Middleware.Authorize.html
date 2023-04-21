@@ -1,0 +1,356 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Auth\Middleware\Authorize |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Auth.html">Auth</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Auth.Middleware.html">Middleware</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Auth.Middleware.Authenticate.html">
+							Authenticate
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Auth.Middleware.AuthenticateWithBasicAuth.html">
+							AuthenticateWithBasicAuth
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Auth.Middleware.Authorize.html">
+							Authorize
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Auth.Middleware.EnsureEmailIsVerified.html">
+							EnsureEmailIsVerified
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Auth.Middleware.RequirePassword.html">
+							RequirePassword
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Auth.Middleware.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Auth.Middleware.Authorize.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Auth.html">Auth</a>\<a href="namespace-Illuminate.Auth.Middleware.html">Middleware</a>\<a href="Illuminate.Auth.Middleware.Authorize.html">Authorize</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Auth.Access.Gate.html"><span title="Illuminate\Contracts\Auth\Access\Gate">Gate</span></a> <var>$gate</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new middleware instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new middleware instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handle" id="_handle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handle(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$next</var></span>, <span>string <var>$ability</var></span>, <span>array|null ...<var>$models</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming request.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Auth.AuthenticationException.html"><span>Illuminate\Auth\AuthenticationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td><code><a href="Illuminate.Auth.Access.AuthorizationException.html"><span>Illuminate\Auth\Access\AuthorizationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getGateArguments" id="_getGateArguments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getGateArguments(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span>array|null <var>$models</var></span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|array|string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the arguments parameter for the gate.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the arguments parameter for the gate.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getGateArguments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getModel" id="_getModel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getModel(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span>string <var>$model</var></span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the model to authorize.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the model to authorize.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getModel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="isClassName" id="_isClassName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>isClassName(<span>string <var>$value</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Checks if the given string looks like a fully qualified class name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Checks if the given string looks like a fully qualified class name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_isClassName">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="gate" id="$gate">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Auth.Access.Gate.html"><span title="Illuminate\Contracts\Auth\Access\Gate">Gate</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$gate</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$gate">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

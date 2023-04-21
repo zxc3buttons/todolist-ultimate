@@ -1,0 +1,774 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Console\Scheduling\CallbackEvent |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Console.html">Console</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Console.Scheduling.html">Scheduling</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Console.Scheduling.CallbackEvent.html">
+							CallbackEvent
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.Event.html">
+							Event
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.Schedule.html">
+							Schedule
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Interfaces</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Console.Scheduling.EventMutex.html">
+							EventMutex
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.SchedulingMutex.html">
+							SchedulingMutex
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Traits</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Console.Scheduling.ManagesFrequencies.html">
+							ManagesFrequencies
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Console.Scheduling.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Console.Scheduling.CallbackEvent.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Console.html">Console</a>\<a href="namespace-Illuminate.Console.Scheduling.html">Scheduling</a>\<a href="Illuminate.Console.Scheduling.CallbackEvent.html">CallbackEvent</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Illuminate.Console.Scheduling.Event.html"><span title="Illuminate\Console\Scheduling\Event">Event</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Console.Scheduling.Event.html"><span>Illuminate\Console\Scheduling\Event</span></a>
+
+
+		uses
+			<a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a>, 
+			<a href="Illuminate.Console.Scheduling.ManagesFrequencies.html"><span title="Illuminate\Console\Scheduling\ManagesFrequencies">ManagesFrequencies</span></a>, 
+			<a href="Illuminate.Support.Traits.ReflectsClosures.html"><span title="Illuminate\Support\Traits\ReflectsClosures">ReflectsClosures</span></a>
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Console\Scheduling\CallbackEvent</span></b>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(
+	<span><a href="Illuminate.Console.Scheduling.EventMutex.html"><span title="Illuminate\Console\Scheduling\EventMutex">EventMutex</span></a> <var>$mutex</var></span>,
+	<span>string|callable <var>$callback</var></span>,
+	<span>array <var>$parameters</var> = []</span>,
+	<span><a href="DateTimeZone.html"><span title="DateTimeZone">DateTimeZone</span></a>|string|null <var>$timezone</var> = <span class="php-kw">null</span></span>,
+): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new event instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new event instance.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="InvalidArgumentException.html"><span>InvalidArgumentException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#___construct">						<code>Illuminate\Console\Scheduling\Event::__construct()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="run" id="_run">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>run(<span><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a> <var>$container</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Run the callback event.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run the callback event.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Throwable.html"><span>Throwable</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_run">						<code>Illuminate\Console\Scheduling\Event::run()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_run">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="shouldSkipDueToOverlapping" id="_shouldSkipDueToOverlapping">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>shouldSkipDueToOverlapping(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the event should skip because another process is overlapping.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the event should skip because another process is overlapping.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_shouldSkipDueToOverlapping">						<code>Illuminate\Console\Scheduling\Event::shouldSkipDueToOverlapping()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_shouldSkipDueToOverlapping">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="runInBackground" id="_runInBackground">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>runInBackground(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Indicate that the callback should run in the background.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Indicate that the callback should run in the background.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="RuntimeException.html"><span>RuntimeException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_runInBackground">						<code>Illuminate\Console\Scheduling\Event::runInBackground()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_runInBackground">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="execute" id="_execute">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>execute(<span><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a> <var>$container</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Run the callback.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run the callback.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_execute">						<code>Illuminate\Console\Scheduling\Event::execute()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_execute">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="withoutOverlapping" id="_withoutOverlapping">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>withoutOverlapping(<span>int <var>$expiresAt</var> = <span class="php-num">1440</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Do not allow the event to overlap each other.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Do not allow the event to overlap each other.</p>
+<p>The expiration time of the underlying cache lock may be specified in minutes.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="LogicException.html"><span>LogicException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_withoutOverlapping">						<code>Illuminate\Console\Scheduling\Event::withoutOverlapping()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_withoutOverlapping">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="onOneServer" id="_onOneServer">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>onOneServer(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Allow the event to only run on one server for each cron expression.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Allow the event to only run on one server for each cron expression.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="LogicException.html"><span>LogicException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_onOneServer">						<code>Illuminate\Console\Scheduling\Event::onOneServer()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_onOneServer">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getSummaryForDisplay" id="_getSummaryForDisplay">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getSummaryForDisplay(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the summary of the event for display.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the summary of the event for display.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_getSummaryForDisplay">						<code>Illuminate\Console\Scheduling\Event::getSummaryForDisplay()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getSummaryForDisplay">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="mutexName" id="_mutexName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>mutexName(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the mutex name for the scheduled command.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the mutex name for the scheduled command.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_mutexName">						<code>Illuminate\Console\Scheduling\Event::mutexName()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_mutexName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="removeMutex" id="_removeMutex">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>removeMutex(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Clear the mutex for the event.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Clear the mutex for the event.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Console.Scheduling.Event.html#_removeMutex">						<code>Illuminate\Console\Scheduling\Event::removeMutex()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_removeMutex">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Illuminate.Console.Scheduling.Event.html"><span>Illuminate\Console\Scheduling\Event</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Console.Scheduling.Event.html#_getDefaultOutput">getDefaultOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_start">start()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_finish">finish()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_callBeforeCallbacks">callBeforeCallbacks()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_callAfterCallbacks">callAfterCallbacks()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_buildCommand">buildCommand()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_isDue">isDue()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_runsInMaintenanceMode">runsInMaintenanceMode()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_expressionPasses">expressionPasses()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_runsInEnvironment">runsInEnvironment()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_filtersPass">filtersPass()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_storeOutput">storeOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_sendOutputTo">sendOutputTo()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_appendOutputTo">appendOutputTo()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_emailOutputTo">emailOutputTo()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_emailWrittenOutputTo">emailWrittenOutputTo()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_emailOutputOnFailure">emailOutputOnFailure()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_ensureOutputIsBeingCaptured">ensureOutputIsBeingCaptured()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_emailOutput">emailOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_getEmailSubject">getEmailSubject()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_pingBefore">pingBefore()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_pingBeforeIf">pingBeforeIf()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_thenPing">thenPing()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_thenPingIf">thenPingIf()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_pingOnSuccess">pingOnSuccess()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_pingOnFailure">pingOnFailure()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_pingCallback">pingCallback()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_user">user()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_environments">environments()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_evenInMaintenanceMode">evenInMaintenanceMode()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_when">when()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_skip">skip()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_before">before()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_after">after()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_then">then()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_thenWithOutput">thenWithOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_onSuccess">onSuccess()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_onSuccessWithOutput">onSuccessWithOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_onFailure">onFailure()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_onFailureWithOutput">onFailureWithOutput()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_withOutputCallback">withOutputCallback()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_name">name()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_description">description()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_nextRunDate">nextRunDate()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_getExpression">getExpression()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_preventOverlapsUsing">preventOverlapsUsing()</a>, <a href="Illuminate.Console.Scheduling.Event.html#_createMutexNameUsing">createMutexNameUsing()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Macroable.html#_macro">macro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_mixin">mixin()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_hasMacro">hasMacro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_flushMacros">flushMacros()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___callStatic">__callStatic()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___call">__call()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html"><span>Illuminate\Console\Scheduling\ManagesFrequencies</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_cron">cron()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_between">between()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_unlessBetween">unlessBetween()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyMinute">everyMinute()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyTwoMinutes">everyTwoMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyThreeMinutes">everyThreeMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyFourMinutes">everyFourMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyFiveMinutes">everyFiveMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyTenMinutes">everyTenMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyFifteenMinutes">everyFifteenMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyThirtyMinutes">everyThirtyMinutes()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_hourly">hourly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_hourlyAt">hourlyAt()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyOddHour">everyOddHour()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyTwoHours">everyTwoHours()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyThreeHours">everyThreeHours()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everyFourHours">everyFourHours()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_everySixHours">everySixHours()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_daily">daily()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_at">at()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_dailyAt">dailyAt()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_twiceDaily">twiceDaily()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_twiceDailyAt">twiceDailyAt()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_weekdays">weekdays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_weekends">weekends()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_mondays">mondays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_tuesdays">tuesdays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_wednesdays">wednesdays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_thursdays">thursdays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_fridays">fridays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_saturdays">saturdays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_sundays">sundays()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_weekly">weekly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_weeklyOn">weeklyOn()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_monthly">monthly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_monthlyOn">monthlyOn()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_twiceMonthly">twiceMonthly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_lastDayOfMonth">lastDayOfMonth()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_quarterly">quarterly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_quarterlyOn">quarterlyOn()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_yearly">yearly()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_yearlyOn">yearlyOn()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_days">days()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_timezone">timezone()</a>, <a href="Illuminate.Console.Scheduling.ManagesFrequencies.html#_spliceIntoPosition">spliceIntoPosition()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.ReflectsClosures.html"><span>Illuminate\Support\Traits\ReflectsClosures</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.ReflectsClosures.html#_firstClosureParameterType">firstClosureParameterType()</a>, <a href="Illuminate.Support.Traits.ReflectsClosures.html#_firstClosureParameterTypes">firstClosureParameterTypes()</a>, <a href="Illuminate.Support.Traits.ReflectsClosures.html#_closureParameterTypes">closureParameterTypes()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="callback" id="$callback">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$callback</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$callback">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parameters" id="$parameters">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$parameters</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$parameters">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="result" id="$result">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">mixed</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$result</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$result">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="exception" id="$exception">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Throwable.html"><span title="Throwable">Throwable</span></a>|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$exception</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$exception">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties inherited from <a href="Illuminate.Console.Scheduling.Event.html"><span>Illuminate\Console\Scheduling\Event</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Console.Scheduling.Event.html#$command">$command</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$expression">$expression</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$timezone">$timezone</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$user">$user</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$environments">$environments</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$evenInMaintenanceMode">$evenInMaintenanceMode</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$withoutOverlapping">$withoutOverlapping</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$onOneServer">$onOneServer</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$expiresAt">$expiresAt</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$runInBackground">$runInBackground</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$filters">$filters</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$rejects">$rejects</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$output">$output</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$shouldAppendOutput">$shouldAppendOutput</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$beforeCallbacks">$beforeCallbacks</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$afterCallbacks">$afterCallbacks</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$description">$description</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$mutex">$mutex</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$mutexNameResolver">$mutexNameResolver</a></var>, <var><a href="Illuminate.Console.Scheduling.Event.html#$exitCode">$exitCode</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Support.Traits.Macroable.html#$macros">$macros</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

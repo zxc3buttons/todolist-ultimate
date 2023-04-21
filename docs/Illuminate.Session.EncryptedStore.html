@@ -1,0 +1,412 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Session\EncryptedStore |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Session.html">Session</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Session.CacheBasedSessionHandler.html">
+							CacheBasedSessionHandler
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Session.EncryptedStore.html">
+							EncryptedStore
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Session.SessionManager.html">
+							SessionManager
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Session.Store.html">
+							Store
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Exceptions</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Session.TokenMismatchException.html">
+							TokenMismatchException
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Session.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Session.EncryptedStore.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Session.html">Session</a>\<a href="Illuminate.Session.EncryptedStore.html">EncryptedStore</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Illuminate.Session.Store.html"><span title="Illuminate\Session\Store">Store</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Session.Store.html"><span>Illuminate\Session\Store</span></a>
+
+		implements
+			<a href="Illuminate.Contracts.Session.Session.html"><span title="Illuminate\Contracts\Session\Session">Session</span></a>
+
+		uses
+			<a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a>
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Session\EncryptedStore</span></b>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(
+	<span>string <var>$name</var></span>,
+	<span><a href="SessionHandlerInterface.html"><span title="SessionHandlerInterface">SessionHandlerInterface</span></a> <var>$handler</var></span>,
+	<span><a href="Illuminate.Contracts.Encryption.Encrypter.html"><span title="Illuminate\Contracts\Encryption\Encrypter">Encrypter</span></a> <var>$encrypter</var></span>,
+	<span>string|null <var>$id</var> = <span class="php-kw">null</span></span>,
+	<span>string <var>$serialization</var> = <span class="php-str">'php'</span></span>,
+): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new session instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new session instance.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Session.Store.html#___construct">						<code>Illuminate\Session\Store::__construct()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prepareForUnserialize" id="_prepareForUnserialize">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prepareForUnserialize(<span>string <var>$data</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Prepare the raw string data from the session for unserialization.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepare the raw string data from the session for unserialization.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Session.Store.html#_prepareForUnserialize">						<code>Illuminate\Session\Store::prepareForUnserialize()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prepareForUnserialize">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prepareForStorage" id="_prepareForStorage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prepareForStorage(<span>string <var>$data</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Prepare the serialized session data for storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepare the serialized session data for storage.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Session.Store.html#_prepareForStorage">						<code>Illuminate\Session\Store::prepareForStorage()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prepareForStorage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getEncrypter" id="_getEncrypter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getEncrypter(): <a href="Illuminate.Contracts.Encryption.Encrypter.html"><span title="Illuminate\Contracts\Encryption\Encrypter">Encrypter</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the encrypter instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the encrypter instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getEncrypter">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Illuminate.Session.Store.html"><span>Illuminate\Session\Store</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Session.Store.html#_start">start()</a>, <a href="Illuminate.Session.Store.html#_loadSession">loadSession()</a>, <a href="Illuminate.Session.Store.html#_readFromHandler">readFromHandler()</a>, <a href="Illuminate.Session.Store.html#_marshalErrorBag">marshalErrorBag()</a>, <a href="Illuminate.Session.Store.html#_save">save()</a>, <a href="Illuminate.Session.Store.html#_prepareErrorBagForSerialization">prepareErrorBagForSerialization()</a>, <a href="Illuminate.Session.Store.html#_ageFlashData">ageFlashData()</a>, <a href="Illuminate.Session.Store.html#_all">all()</a>, <a href="Illuminate.Session.Store.html#_only">only()</a>, <a href="Illuminate.Session.Store.html#_exists">exists()</a>, <a href="Illuminate.Session.Store.html#_missing">missing()</a>, <a href="Illuminate.Session.Store.html#_has">has()</a>, <a href="Illuminate.Session.Store.html#_get">get()</a>, <a href="Illuminate.Session.Store.html#_pull">pull()</a>, <a href="Illuminate.Session.Store.html#_hasOldInput">hasOldInput()</a>, <a href="Illuminate.Session.Store.html#_getOldInput">getOldInput()</a>, <a href="Illuminate.Session.Store.html#_replace">replace()</a>, <a href="Illuminate.Session.Store.html#_put">put()</a>, <a href="Illuminate.Session.Store.html#_remember">remember()</a>, <a href="Illuminate.Session.Store.html#_push">push()</a>, <a href="Illuminate.Session.Store.html#_increment">increment()</a>, <a href="Illuminate.Session.Store.html#_decrement">decrement()</a>, <a href="Illuminate.Session.Store.html#_flash">flash()</a>, <a href="Illuminate.Session.Store.html#_now">now()</a>, <a href="Illuminate.Session.Store.html#_reflash">reflash()</a>, <a href="Illuminate.Session.Store.html#_keep">keep()</a>, <a href="Illuminate.Session.Store.html#_mergeNewFlashes">mergeNewFlashes()</a>, <a href="Illuminate.Session.Store.html#_removeFromOldFlashData">removeFromOldFlashData()</a>, <a href="Illuminate.Session.Store.html#_flashInput">flashInput()</a>, <a href="Illuminate.Session.Store.html#_remove">remove()</a>, <a href="Illuminate.Session.Store.html#_forget">forget()</a>, <a href="Illuminate.Session.Store.html#_flush">flush()</a>, <a href="Illuminate.Session.Store.html#_invalidate">invalidate()</a>, <a href="Illuminate.Session.Store.html#_regenerate">regenerate()</a>, <a href="Illuminate.Session.Store.html#_migrate">migrate()</a>, <a href="Illuminate.Session.Store.html#_isStarted">isStarted()</a>, <a href="Illuminate.Session.Store.html#_getName">getName()</a>, <a href="Illuminate.Session.Store.html#_setName">setName()</a>, <a href="Illuminate.Session.Store.html#_getId">getId()</a>, <a href="Illuminate.Session.Store.html#_setId">setId()</a>, <a href="Illuminate.Session.Store.html#_isValidId">isValidId()</a>, <a href="Illuminate.Session.Store.html#_generateSessionId">generateSessionId()</a>, <a href="Illuminate.Session.Store.html#_setExists">setExists()</a>, <a href="Illuminate.Session.Store.html#_token">token()</a>, <a href="Illuminate.Session.Store.html#_regenerateToken">regenerateToken()</a>, <a href="Illuminate.Session.Store.html#_previousUrl">previousUrl()</a>, <a href="Illuminate.Session.Store.html#_setPreviousUrl">setPreviousUrl()</a>, <a href="Illuminate.Session.Store.html#_passwordConfirmed">passwordConfirmed()</a>, <a href="Illuminate.Session.Store.html#_getHandler">getHandler()</a>, <a href="Illuminate.Session.Store.html#_setHandler">setHandler()</a>, <a href="Illuminate.Session.Store.html#_handlerNeedsRequest">handlerNeedsRequest()</a>, <a href="Illuminate.Session.Store.html#_setRequestOnHandler">setRequestOnHandler()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Macroable.html#_macro">macro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_mixin">mixin()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_hasMacro">hasMacro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_flushMacros">flushMacros()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___callStatic">__callStatic()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___call">__call()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="encrypter" id="$encrypter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Encryption.Encrypter.html"><span title="Illuminate\Contracts\Encryption\Encrypter">Encrypter</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$encrypter</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$encrypter">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties inherited from <a href="Illuminate.Session.Store.html"><span>Illuminate\Session\Store</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Session.Store.html#$id">$id</a></var>, <var><a href="Illuminate.Session.Store.html#$name">$name</a></var>, <var><a href="Illuminate.Session.Store.html#$attributes">$attributes</a></var>, <var><a href="Illuminate.Session.Store.html#$handler">$handler</a></var>, <var><a href="Illuminate.Session.Store.html#$serialization">$serialization</a></var>, <var><a href="Illuminate.Session.Store.html#$started">$started</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Support.Traits.Macroable.html#$macros">$macros</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

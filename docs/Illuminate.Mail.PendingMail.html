@@ -1,0 +1,581 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Mail\PendingMail |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Mail.html">Mail</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Mail.Attachment.html">
+							Attachment
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.Mailable.html">
+							Mailable
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.Markdown.html">
+							Markdown
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.Message.html">
+							Message
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Mail.PendingMail.html">
+							PendingMail
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.SentMessage.html">
+							SentMessage
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Mail.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Mail.PendingMail.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Mail.html">Mail</a>\<a href="Illuminate.Mail.PendingMail.html">PendingMail</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.Traits.Conditionable.html"><span title="Illuminate\Support\Traits\Conditionable">Conditionable</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Mail.Mailer.html"><span title="Illuminate\Contracts\Mail\Mailer">Mailer</span></a> <var>$mailer</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new mailable mailer instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new mailable mailer instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="locale" id="_locale">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>locale(<span>string <var>$locale</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the locale of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the locale of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_locale">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="to" id="_to">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>to(<span>mixed <var>$users</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_to">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cc" id="_cc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>cc(<span>mixed <var>$users</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_cc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bcc" id="_bcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bcc(<span>mixed <var>$users</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bcc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="send" id="_send">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>send(<span><a href="Illuminate.Contracts.Mail.Mailable.html"><span title="Illuminate\Contracts\Mail\Mailable">Mailable</span></a> <var>$mailable</var></span>): <a href="Illuminate.Mail.SentMessage.html"><span title="Illuminate\Mail\SentMessage">SentMessage</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Send a new mailable message instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Send a new mailable message instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_send">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="queue" id="_queue">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>queue(<span><a href="Illuminate.Contracts.Mail.Mailable.html"><span title="Illuminate\Contracts\Mail\Mailable">Mailable</span></a> <var>$mailable</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push the given mailable onto the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push the given mailable onto the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_queue">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="later" id="_later">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>later(<span><a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|<a href="DateInterval.html"><span title="DateInterval">DateInterval</span></a>|int <var>$delay</var></span>, <span><a href="Illuminate.Contracts.Mail.Mailable.html"><span title="Illuminate\Contracts\Mail\Mailable">Mailable</span></a> <var>$mailable</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Deliver the queued message after (n) seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Deliver the queued message after (n) seconds.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_later">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="fill" id="_fill">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>fill(<span><a href="Illuminate.Contracts.Mail.Mailable.html"><span title="Illuminate\Contracts\Mail\Mailable">Mailable</span></a> <var>$mailable</var></span>): <a href="Illuminate.Mail.Mailable.html"><span title="Illuminate\Mail\Mailable">Mailable</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Populate the mailable with the addresses.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Populate the mailable with the addresses.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_fill">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Conditionable.html"><span>Illuminate\Support\Traits\Conditionable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Conditionable.html#_when">when()</a>, <a href="Illuminate.Support.Traits.Conditionable.html#_unless">unless()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="mailer" id="$mailer">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Mail.Mailer.html"><span title="Illuminate\Contracts\Mail\Mailer">Mailer</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$mailer</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$mailer">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="locale" id="$locale">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$locale</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$locale">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="to" id="$to">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$to</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$to">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cc" id="$cc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$cc</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$cc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bcc" id="$bcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$bcc</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$bcc">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

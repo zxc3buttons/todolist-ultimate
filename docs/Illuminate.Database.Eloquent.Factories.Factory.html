@@ -1,0 +1,2127 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Database\Eloquent\Factories\Factory |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Database.html">Database</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Database.Eloquent.html">Eloquent</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Database.Eloquent.Factories.html">Factories</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Database.Eloquent.Factories.Factory.html">
+							Factory
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Traits</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Database.Eloquent.Factories.HasFactory.html">
+							HasFactory
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Database.Eloquent.Factories.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Database.Eloquent.Factories.Factory.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Database.html">Database</a>\<a href="namespace-Illuminate.Database.Eloquent.html">Eloquent</a>\<a href="namespace-Illuminate.Database.Eloquent.Factories.html">Factories</a>\<a href="Illuminate.Database.Eloquent.Factories.Factory.html">Factory</a>
+		</h1>
+
+			<h2><code>&lt;<span title="">TModel</span> is <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>&gt;</code></h2>
+
+	<table class="classLikeSignatureTable">
+			<tr><th><code>abstract</code></th></tr>
+
+
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.Traits.Conditionable.html"><span title="Illuminate\Support\Traits\Conditionable">Conditionable</span></a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html"><span title="Illuminate\Support\Traits\ForwardsCalls">ForwardsCalls</span></a>, <a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(
+	<span>int|null <var>$count</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$states</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$has</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$for</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$afterMaking</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$afterCreating</var> = <span class="php-kw">null</span></span>,
+	<span>string|null <var>$connection</var> = <span class="php-kw">null</span></span>,
+	<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|null <var>$recycle</var> = <span class="php-kw">null</span></span>,
+): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new factory instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new factory instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="definition" id="_definition">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					abstract
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>definition(): array&lt;string, mixed&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Define the model's default state.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Define the model's default state.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_definition">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="new" id="_new">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>new(<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Get a new factory instance for the given attributes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a new factory instance for the given attributes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_new">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="times" id="_times">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>times(<span>int <var>$count</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Get a new factory instance for the given number of models.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a new factory instance for the given number of models.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_times">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="configure" id="_configure">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>configure(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Configure the factory.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Configure the factory.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_configure">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="raw" id="_raw">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>raw(
+	<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+	<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>,
+): array&lt;int|string, mixed&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the raw attributes generated by the factory.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the raw attributes generated by the factory.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_raw">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createOne" id="_createOne">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createOne(<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a single model and persist it to the database.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a single model and persist it to the database.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createOne">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createOneQuietly" id="_createOneQuietly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createOneQuietly(
+	<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a single model and persist it to the database without dispatching any model events.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a single model and persist it to the database without dispatching any model events.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createOneQuietly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createMany" id="_createMany">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createMany(<span>iterable&lt;int, array&lt;string, mixed&gt;&gt; <var>$records</var></span>): <a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a collection of models and persist them to the database.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a collection of models and persist them to the database.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createMany">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createManyQuietly" id="_createManyQuietly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createManyQuietly(<span>iterable&lt;int, array&lt;string, mixed&gt;&gt; <var>$records</var></span>): <a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a collection of models and persist them to the database without dispatching any model events.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a collection of models and persist them to the database without dispatching any model events.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createManyQuietly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="create" id="_create">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>create(
+	<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+	<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>,
+): <a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a collection of models and persist them to the database.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a collection of models and persist them to the database.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_create">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createQuietly" id="_createQuietly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createQuietly(
+	<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+	<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>,
+): <a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a collection of models and persist them to the database without dispatching any model events.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a collection of models and persist them to the database without dispatching any model events.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createQuietly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="lazy" id="_lazy">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>lazy(
+	<span>array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+	<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>,
+): <a href="Closure.html"><span title="Closure">Closure</span></a>():&nbsp;(<a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel)</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a callback that persists a model in the database when invoked.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a callback that persists a model in the database when invoked.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_lazy">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="store" id="_store">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>store(<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a> <var>$results</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the connection name on the results and store them.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the connection name on the results and store them.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_store">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createChildren" id="_createChildren">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createChildren(<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a> <var>$model</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create the children for the given model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create the children for the given model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createChildren">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="makeOne" id="_makeOne">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>makeOne(<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Make a single instance of the model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Make a single instance of the model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_makeOne">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="make" id="_make">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>make(
+	<span>(callable(array&lt;string, mixed&gt;):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$attributes</var> = []</span>,
+	<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>,
+): <a href="Illuminate.Database.Eloquent.Collection.html"><span title="Illuminate\Database\Eloquent\Collection">Collection</span></a>&lt;int, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a collection of models.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a collection of models.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_make">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="makeInstance" id="_makeInstance">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>makeInstance(<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var></span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Make an instance of the model with the given attributes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Make an instance of the model with the given attributes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_makeInstance">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getExpandedAttributes" id="_getExpandedAttributes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getExpandedAttributes(<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Get a raw attributes array for the model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a raw attributes array for the model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getExpandedAttributes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getRawAttributes" id="_getRawAttributes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getRawAttributes(<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the raw attributes for the model as an array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the raw attributes for the model as an array.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getRawAttributes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parentResolvers" id="_parentResolvers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parentResolvers(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Create the parent relationship resolvers (as deferred Closures).
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create the parent relationship resolvers (as deferred Closures).</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parentResolvers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="expandAttributes" id="_expandAttributes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>expandAttributes(<span>array <var>$definition</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Expand all attributes to their underlying values.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Expand all attributes to their underlying values.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_expandAttributes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="state" id="_state">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>state(<span>(callable(array&lt;string, mixed&gt;, <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null):&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$state</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new state transformation to the model definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new state transformation to the model definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_state">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="set" id="_set">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>set(<span>string|int <var>$key</var></span>, <span>mixed <var>$value</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Set a single model attribute.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set a single model attribute.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_set">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sequence" id="_sequence">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>sequence(<span>mixed ...<var>$sequence</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new sequenced state transformation to the model definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new sequenced state transformation to the model definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sequence">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="forEachSequence" id="_forEachSequence">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>forEachSequence(<span>array ...<var>$sequence</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new sequenced state transformation to the model definition and update the pending creation count to the size of…
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new sequenced state transformation to the model definition and update the pending creation count to the size of the sequence.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_forEachSequence">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="crossJoinSequence" id="_crossJoinSequence">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>crossJoinSequence(<span>array ...<var>$sequence</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new cross joined sequenced state transformation to the model definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new cross joined sequenced state transformation to the model definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_crossJoinSequence">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="has" id="_has">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>has(<span><b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b> <var>$factory</var></span>, <span>string|null <var>$relationship</var> = <span class="php-kw">null</span></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Define a child relationship for the model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Define a child relationship for the model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_has">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="guessRelationship" id="_guessRelationship">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>guessRelationship(<span>string <var>$related</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Attempt to guess the relationship name for a "has" relationship.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attempt to guess the relationship name for a &quot;has&quot; relationship.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_guessRelationship">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasAttached" id="_hasAttached">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasAttached(
+	<span><b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b>|<a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|array <var>$factory</var></span>,
+	<span>(callable():&nbsp;array&lt;string, mixed&gt;)|array&lt;string, mixed&gt; <var>$pivot</var> = []</span>,
+	<span>string|null <var>$relationship</var> = <span class="php-kw">null</span></span>,
+): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Define an attached relationship for the model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Define an attached relationship for the model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasAttached">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="for" id="_for">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>for(<span><b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b>|<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a> <var>$factory</var></span>, <span>string|null <var>$relationship</var> = <span class="php-kw">null</span></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Define a parent relationship for the model.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Define a parent relationship for the model.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_for">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="recycle" id="_recycle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>recycle(<span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|<a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a>|array <var>$model</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Provide model instances to use instead of any nested factory calls when creating relationships.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Provide model instances to use instead of any nested factory calls when creating relationships.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_recycle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getRandomRecycledModel" id="_getRandomRecycledModel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getRandomRecycledModel(<span>string <var>$modelClassName</var></span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Retrieve a random model of a given type from previously provided models to recycle.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Retrieve a random model of a given type from previously provided models to recycle.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getRandomRecycledModel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="afterMaking" id="_afterMaking">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>afterMaking(<span><a href="Closure.html"><span title="Closure">Closure</span></a>(<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel):&nbsp;mixed <var>$callback</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new "after making" callback to the model definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new &quot;after making&quot; callback to the model definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_afterMaking">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="afterCreating" id="_afterCreating">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>afterCreating(<span><a href="Closure.html"><span title="Closure">Closure</span></a>(<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel):&nbsp;mixed <var>$callback</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new "after creating" callback to the model definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new &quot;after creating&quot; callback to the model definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_afterCreating">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="callAfterMaking" id="_callAfterMaking">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>callAfterMaking(<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a> <var>$instances</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Call the "after making" callbacks for the given model instances.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Call the &quot;after making&quot; callbacks for the given model instances.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_callAfterMaking">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="callAfterCreating" id="_callAfterCreating">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>callAfterCreating(<span><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a> <var>$instances</var></span>, <span><a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|null <var>$parent</var> = <span class="php-kw">null</span></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Call the "after creating" callbacks for the given model instances.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Call the &quot;after creating&quot; callbacks for the given model instances.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_callAfterCreating">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="count" id="_count">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>count(<span>int|null <var>$count</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Specify how many models should be generated.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Specify how many models should be generated.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_count">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="connection" id="_connection">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>connection(<span>string <var>$connection</var></span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Specify the database connection that should be used to generate models.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Specify the database connection that should be used to generate models.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_connection">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="newInstance" id="_newInstance">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>newInstance(<span>array <var>$arguments</var> = []</span>): static</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new instance of the factory builder with the given mutated properties.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new instance of the factory builder with the given mutated properties.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_newInstance">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="newModel" id="_newModel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>newModel(<span>array&lt;string, mixed&gt; <var>$attributes</var> = []</span>): <a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel</code>
+
+
+	<div class="expandable-collapsedView">
+		Get a new model instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a new model instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_newModel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="modelName" id="_modelName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>modelName(): class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the name of the model that is generated by the factory.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the name of the model that is generated by the factory.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_modelName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="guessModelNamesUsing" id="_guessModelNamesUsing">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>guessModelNamesUsing(<span>callable(<b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">self</span></b>):&nbsp;class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt; <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Specify the callback that should be invoked to guess model names based on factory names.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Specify the callback that should be invoked to guess model names based on factory names.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_guessModelNamesUsing">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="useNamespace" id="_useNamespace">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>useNamespace(<span>string <var>$namespace</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Specify the default namespace that contains the application's model factories.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Specify the default namespace that contains the application's model factories.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_useNamespace">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="factoryForModel" id="_factoryForModel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>factoryForModel(<span>class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>&gt; <var>$modelName</var></span>): <b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Get a new factory instance for the given model name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a new factory instance for the given model name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_factoryForModel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="guessFactoryNamesUsing" id="_guessFactoryNamesUsing">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>guessFactoryNamesUsing(<span>callable(class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>&gt;):&nbsp;class-string&lt;<b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b>&gt; <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Specify the callback that should be invoked to guess factory names based on dynamic relationship names.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Specify the callback that should be invoked to guess factory names based on dynamic relationship names.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_guessFactoryNamesUsing">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="withFaker" id="_withFaker">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>withFaker(): <a href="Faker.Generator.html"><span title="Faker\Generator">Generator</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get a new Faker instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get a new Faker instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_withFaker">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resolveFactoryName" id="_resolveFactoryName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resolveFactoryName(<span>class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>&gt; <var>$modelName</var></span>): class-string&lt;<b><span class="active" title="Illuminate\Database\Eloquent\Factories\Factory">Factory</span></b>&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the factory name for the given model name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the factory name for the given model name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resolveFactoryName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="appNamespace" id="_appNamespace">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>appNamespace(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the application namespace for the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the application namespace for the application.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_appNamespace">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__call" id="___call">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__call(<span>string <var>$method</var></span>, <span>array <var>$parameters</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Proxy dynamic factory methods onto their proper methods.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Proxy dynamic factory methods onto their proper methods.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___call">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="trashed" id="_trashed">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>trashed(): $this</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_trashed">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Conditionable.html"><span>Illuminate\Support\Traits\Conditionable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Conditionable.html#_when">when()</a>, <a href="Illuminate.Support.Traits.Conditionable.html#_unless">unless()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.ForwardsCalls.html"><span>Illuminate\Support\Traits\ForwardsCalls</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.ForwardsCalls.html#_forwardCallTo">forwardCallTo()</a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html#_forwardDecoratedCallTo">forwardDecoratedCallTo()</a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html#_throwBadMethodCallException">throwBadMethodCallException()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Macroable.html#_macro">macro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_mixin">mixin()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_hasMacro">hasMacro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_flushMacros">flushMacros()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___callStatic">__callStatic()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="model" id="$model">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">class-string&lt;<a href="Illuminate.Database.Eloquent.Model.html"><span title="Illuminate\Database\Eloquent\Model">Model</span></a>|TModel&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$model</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$model">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="count" id="$count">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">int|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$count</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$count">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="states" id="$states">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$states</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$states">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="has" id="$has">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$has</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$has">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="for" id="$for">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$for</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$for">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="recycle" id="$recycle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$recycle</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$recycle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="afterMaking" id="$afterMaking">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$afterMaking</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$afterMaking">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="afterCreating" id="$afterCreating">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Collection.html"><span title="Illuminate\Support\Collection">Collection</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$afterCreating</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$afterCreating">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="connection" id="$connection">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$connection</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$connection">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="faker" id="$faker">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Faker.Generator.html"><span title="Faker\Generator">Generator</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$faker</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$faker">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="namespace" id="$namespace">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$namespace</var> = <span class="php-str">'Database\\Factories\\'</span></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$namespace">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="modelNameResolver" id="$modelNameResolver">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">callable</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$modelNameResolver</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$modelNameResolver">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="factoryNameResolver" id="$factoryNameResolver">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">callable</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$factoryNameResolver</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$factoryNameResolver">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Support.Traits.Macroable.html#$macros">$macros</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

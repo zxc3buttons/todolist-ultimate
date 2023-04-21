@@ -1,0 +1,931 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Console\Application |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Console.html">Console</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Console.Application.html">
+							Application
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Command.html">
+							Command
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.OutputStyle.html">
+							OutputStyle
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Signals.html">
+							Signals
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Interfaces</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Console.CommandMutex.html">
+							CommandMutex
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Console.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Console.Application.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Console.html">Console</a>\<a href="Illuminate.Console.Application.html">Application</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Symfony.Component.Console.Application.html"><span title="Symfony\Component\Console\Application">Application</span></a></code>			</td>
+		</tr>
+		<tr>
+			<th><code>implements</code></th>
+			<td>
+<code><a href="Illuminate.Contracts.Console.Application.html"><span title="Illuminate\Contracts\Console\Application">Application</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Symfony.Component.Console.Application.html"><span>Symfony\Component\Console\Application</span></a>
+
+		implements
+			<a href="Symfony.Contracts.Service.ResetInterface.html"><span title="Symfony\Contracts\Service\ResetInterface">ResetInterface</span></a>
+
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Console\Application</span></b>
+
+		implements
+			<a href="Illuminate.Contracts.Console.Application.html"><span title="Illuminate\Contracts\Console\Application">Application</span></a>
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a> <var>$laravel</var></span>, <span><a href="Illuminate.Contracts.Events.Dispatcher.html"><span title="Illuminate\Contracts\Events\Dispatcher">Dispatcher</span></a> <var>$events</var></span>, <span>string <var>$version</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new Artisan console application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new Artisan console application.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Console.Application.html#___construct">						<code>Symfony\Component\Console\Application::__construct()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="phpBinary" id="_phpBinary">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>phpBinary(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine the proper PHP executable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine the proper PHP executable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_phpBinary">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="artisanBinary" id="_artisanBinary">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>artisanBinary(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine the proper Artisan executable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine the proper Artisan executable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_artisanBinary">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="formatCommandString" id="_formatCommandString">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>formatCommandString(<span>string <var>$string</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Format the given command as a fully-qualified executable command.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Format the given command as a fully-qualified executable command.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_formatCommandString">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="starting" id="_starting">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>starting(<span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a console "starting" bootstrapper.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a console &quot;starting&quot; bootstrapper.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_starting">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bootstrap" id="_bootstrap">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bootstrap(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Bootstrap the console application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Bootstrap the console application.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bootstrap">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="forgetBootstrappers" id="_forgetBootstrappers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>forgetBootstrappers(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Clear the console application bootstrappers.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Clear the console application bootstrappers.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_forgetBootstrappers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="call" id="_call">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>call(<span>string <var>$command</var></span>, <span>array <var>$parameters</var> = []</span>, <span><a href="Symfony.Component.Console.Output.OutputInterface.html"><span title="Symfony\Component\Console\Output\OutputInterface">OutputInterface</span></a>|null <var>$outputBuffer</var> = <span class="php-kw">null</span></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Run an Artisan console command by name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run an Artisan console command by name.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Symfony.Component.Console.Exception.CommandNotFoundException.html"><span>Symfony\Component\Console\Exception\CommandNotFoundException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Console.Application.html#_call">						<code>Illuminate\Contracts\Console\Application::call()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_call">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parseCommand" id="_parseCommand">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parseCommand(<span>string <var>$command</var></span>, <span>array <var>$parameters</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Parse the incoming Artisan command and its input.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Parse the incoming Artisan command and its input.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parseCommand">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="output" id="_output">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>output(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the output for the last run command.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the output for the last run command.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Console.Application.html#_output">						<code>Illuminate\Contracts\Console\Application::output()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_output">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="add" id="_add">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>add(<span><a href="Symfony.Component.Console.Command.Command.html"><span title="Symfony\Component\Console\Command\Command">Command</span></a> <var>$command</var></span>): <a href="Symfony.Component.Console.Command.Command.html"><span title="Symfony\Component\Console\Command\Command">Command</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Add a command to the console.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a command to the console.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Console.Application.html#_add">						<code>Symfony\Component\Console\Application::add()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_add">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="addToParent" id="_addToParent">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>addToParent(<span><a href="Symfony.Component.Console.Command.Command.html"><span title="Symfony\Component\Console\Command\Command">Command</span></a> <var>$command</var></span>): <a href="Symfony.Component.Console.Command.Command.html"><span title="Symfony\Component\Console\Command\Command">Command</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Add the command to the parent instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add the command to the parent instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_addToParent">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resolve" id="_resolve">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resolve(<span><a href="Illuminate.Console.Command.html"><span title="Illuminate\Console\Command">Command</span></a>|string <var>$command</var></span>): <a href="Symfony.Component.Console.Command.Command.html"><span title="Symfony\Component\Console\Command\Command">Command</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a command, resolving through the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a command, resolving through the application.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resolve">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resolveCommands" id="_resolveCommands">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resolveCommands(<span>array|mixed <var>$commands</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Resolve an array of commands through the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Resolve an array of commands through the application.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resolveCommands">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setContainerCommandLoader" id="_setContainerCommandLoader">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setContainerCommandLoader(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the container command loader for lazy resolution.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the container command loader for lazy resolution.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setContainerCommandLoader">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getDefaultInputDefinition" id="_getDefaultInputDefinition">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getDefaultInputDefinition(): <a href="Symfony.Component.Console.Input.InputDefinition.html"><span title="Symfony\Component\Console\Input\InputDefinition">InputDefinition</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the default input definition for the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the default input definition for the application.</p>
+<p>This is used to add the --env option to every available command.</p>
+</div>
+
+
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Symfony.Component.Console.Application.html#_getDefaultInputDefinition">						<code>Symfony\Component\Console\Application::getDefaultInputDefinition()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getDefaultInputDefinition">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getEnvironmentOption" id="_getEnvironmentOption">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getEnvironmentOption(): <a href="Symfony.Component.Console.Input.InputOption.html"><span title="Symfony\Component\Console\Input\InputOption">InputOption</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the global environment option for the definition.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the global environment option for the definition.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getEnvironmentOption">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getLaravel" id="_getLaravel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getLaravel(): <a href="Illuminate.Contracts.Foundation.Application.html"><span title="Illuminate\Contracts\Foundation\Application">Application</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the Laravel application instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the Laravel application instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getLaravel">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Symfony.Component.Console.Application.html"><span>Symfony\Component\Console\Application</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Symfony.Component.Console.Application.html#_setDispatcher">setDispatcher()</a>, <a href="Symfony.Component.Console.Application.html#_setCommandLoader">setCommandLoader()</a>, <a href="Symfony.Component.Console.Application.html#_getSignalRegistry">getSignalRegistry()</a>, <a href="Symfony.Component.Console.Application.html#_setSignalsToDispatchEvent">setSignalsToDispatchEvent()</a>, <a href="Symfony.Component.Console.Application.html#_run">run()</a>, <a href="Symfony.Component.Console.Application.html#_doRun">doRun()</a>, <a href="Symfony.Component.Console.Application.html#_reset">reset()</a>, <a href="Symfony.Component.Console.Application.html#_setHelperSet">setHelperSet()</a>, <a href="Symfony.Component.Console.Application.html#_getHelperSet">getHelperSet()</a>, <a href="Symfony.Component.Console.Application.html#_setDefinition">setDefinition()</a>, <a href="Symfony.Component.Console.Application.html#_getDefinition">getDefinition()</a>, <a href="Symfony.Component.Console.Application.html#_complete">complete()</a>, <a href="Symfony.Component.Console.Application.html#_getHelp">getHelp()</a>, <a href="Symfony.Component.Console.Application.html#_areExceptionsCaught">areExceptionsCaught()</a>, <a href="Symfony.Component.Console.Application.html#_setCatchExceptions">setCatchExceptions()</a>, <a href="Symfony.Component.Console.Application.html#_isAutoExitEnabled">isAutoExitEnabled()</a>, <a href="Symfony.Component.Console.Application.html#_setAutoExit">setAutoExit()</a>, <a href="Symfony.Component.Console.Application.html#_getName">getName()</a>, <a href="Symfony.Component.Console.Application.html#_setName">setName()</a>, <a href="Symfony.Component.Console.Application.html#_getVersion">getVersion()</a>, <a href="Symfony.Component.Console.Application.html#_setVersion">setVersion()</a>, <a href="Symfony.Component.Console.Application.html#_getLongVersion">getLongVersion()</a>, <a href="Symfony.Component.Console.Application.html#_register">register()</a>, <a href="Symfony.Component.Console.Application.html#_addCommands">addCommands()</a>, <a href="Symfony.Component.Console.Application.html#_get">get()</a>, <a href="Symfony.Component.Console.Application.html#_has">has()</a>, <a href="Symfony.Component.Console.Application.html#_getNamespaces">getNamespaces()</a>, <a href="Symfony.Component.Console.Application.html#_findNamespace">findNamespace()</a>, <a href="Symfony.Component.Console.Application.html#_find">find()</a>, <a href="Symfony.Component.Console.Application.html#_all">all()</a>, <a href="Symfony.Component.Console.Application.html#_getAbbreviations">getAbbreviations()</a>, <a href="Symfony.Component.Console.Application.html#_renderThrowable">renderThrowable()</a>, <a href="Symfony.Component.Console.Application.html#_doRenderThrowable">doRenderThrowable()</a>, <a href="Symfony.Component.Console.Application.html#_configureIO">configureIO()</a>, <a href="Symfony.Component.Console.Application.html#_doRunCommand">doRunCommand()</a>, <a href="Symfony.Component.Console.Application.html#_getCommandName">getCommandName()</a>, <a href="Symfony.Component.Console.Application.html#_getDefaultCommands">getDefaultCommands()</a>, <a href="Symfony.Component.Console.Application.html#_getDefaultHelperSet">getDefaultHelperSet()</a>, <a href="Symfony.Component.Console.Application.html#_extractNamespace">extractNamespace()</a>, <a href="Symfony.Component.Console.Application.html#_setDefaultCommand">setDefaultCommand()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="laravel" id="$laravel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$laravel</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$laravel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="events" id="$events">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Events.Dispatcher.html"><span title="Illuminate\Contracts\Events\Dispatcher">Dispatcher</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$events</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$events">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="lastOutput" id="$lastOutput">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Symfony.Component.Console.Output.BufferedOutput.html"><span title="Symfony\Component\Console\Output\BufferedOutput">BufferedOutput</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$lastOutput</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$lastOutput">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bootstrappers" id="$bootstrappers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$bootstrappers</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$bootstrappers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="commandMap" id="$commandMap">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$commandMap</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$commandMap">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

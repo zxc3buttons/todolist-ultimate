@@ -1,0 +1,941 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class PhpOption\LazyOption |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-PhpOption.html">PhpOption</a>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="PhpOption.LazyOption.html">
+							LazyOption
+						</a>
+					</li>
+					<li>
+						<a href="PhpOption.Option.html">
+							Option
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-PhpOption.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="PhpOption.LazyOption.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-PhpOption.html">PhpOption</a>\<a href="PhpOption.LazyOption.html">LazyOption</a>
+		</h1>
+
+			<h2><code>&lt;<span title="">T</span>&gt;</code></h2>
+
+	<table class="classLikeSignatureTable">
+
+			<tr><th><code>final</code></th></tr>
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="PhpOption.Option.html"><span title="PhpOption\Option">Option</span></a>&lt;T&gt;</code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="PhpOption.Option.html"><span>PhpOption\Option</span></a>
+
+		implements
+			<a href="IteratorAggregate.html"><span title="IteratorAggregate">IteratorAggregate</span></a>&lt;T&gt;
+
+	<ul class="classTree">
+	<li>
+<b><span class="active">PhpOption\LazyOption</span></b>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="create" id="_create">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>create&lt;<span title="">S</span>&gt;(<span>callable(mixed...):&nbsp;<a href="PhpOption.Option.html"><span title="PhpOption\Option">Option</span></a>&lt;S&gt; <var>$callback</var></span>, <span>array&lt;int, mixed&gt; <var>$arguments</var> = []</span>): <b><span class="active" title="PhpOption\LazyOption">LazyOption</span></b>&lt;S&gt;</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_create">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span>callable(mixed...):&nbsp;<a href="PhpOption.Option.html"><span title="PhpOption\Option">Option</span></a>&lt;T&gt; <var>$callback</var></span>, <span>array&lt;int, mixed&gt; <var>$arguments</var> = []</span>)</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="isDefined" id="_isDefined">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>isDefined(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns true if a value is available, false otherwise.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns true if a value is available, false otherwise.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_isDefined">						<code>PhpOption\Option::isDefined()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_isDefined">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="isEmpty" id="_isEmpty">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>isEmpty(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns true if no value is available, false otherwise.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns true if no value is available, false otherwise.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_isEmpty">						<code>PhpOption\Option::isEmpty()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_isEmpty">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="get" id="_get">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>get()</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the value if available, or throws an exception otherwise.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the value if available, or throws an exception otherwise.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_get">						<code>PhpOption\Option::get()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_get">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getOrElse" id="_getOrElse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getOrElse(<span><var>$default</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the value if available, or the default value if not.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the value if available, or the default value if not.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_getOrElse">						<code>PhpOption\Option::getOrElse()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getOrElse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getOrCall" id="_getOrCall">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getOrCall(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the value if available, or the results of the callable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the value if available, or the results of the callable.</p>
+<p>This is preferable over <code>getOrElse</code> if the computation of the default
+value is expensive.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_getOrCall">						<code>PhpOption\Option::getOrCall()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getOrCall">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getOrThrow" id="_getOrThrow">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getOrThrow(<span><a href="Exception.html"><span title="Exception">Exception</span></a> <var>$ex</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the value if available, or throws the passed exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the value if available, or throws the passed exception.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_getOrThrow">						<code>PhpOption\Option::getOrThrow()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getOrThrow">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="orElse" id="_orElse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>orElse(<span><a href="PhpOption.Option.html"><span title="PhpOption\Option">Option</span></a> <var>$else</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns this option if non-empty, or the passed option otherwise.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns this option if non-empty, or the passed option otherwise.</p>
+<p>This can be used to try multiple alternatives, and is especially useful
+with lazy evaluating options:</p>
+<pre><code class="language-php">    $repo-&gt;findSomething()
+        -&gt;orElse(new LazyOption(array($repo, 'findSomethingElse')))
+        -&gt;orElse(new LazyOption(array($repo, 'createSomething')));
+</code></pre>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_orElse">						<code>PhpOption\Option::orElse()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_orElse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="ifDefined" id="_ifDefined">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>ifDefined(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		This is similar to map() below except that the return value has no meaning;
+the passed callable is simply executed if…
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>This is similar to map() below except that the return value has no meaning;
+the passed callable is simply executed if the option is non-empty, and
+ignored if the option is empty.</p>
+<p>In all cases, the return value of the callable is discarded.</p>
+<pre><code class="language-php">    $comment-&gt;getMaybeFile()-&gt;ifDefined(function($file) {
+        // Do something with $file here.
+    });
+</code></pre>
+<p>If you're looking for something like <code>ifEmpty</code>, you can use <code>getOrCall</code>
+and <code>getOrElse</code> in these cases.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_ifDefined">						<code>PhpOption\Option::ifDefined()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_ifDefined">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="forAll" id="_forAll">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>forAll(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		This is similar to map() except that the return value of the callable has no meaning.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>This is similar to map() except that the return value of the callable has no meaning.</p>
+<p>The passed callable is simply executed if the option is non-empty, and ignored if the
+option is empty. This method is preferred for callables with side-effects, while map()
+is intended for callables without side-effects.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_forAll">						<code>PhpOption\Option::forAll()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_forAll">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="map" id="_map">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>map(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Applies the callable to the value of the option if it is non-empty,
+and returns the return value of the callable…
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Applies the callable to the value of the option if it is non-empty,
+and returns the return value of the callable wrapped in Some().</p>
+<p>If the option is empty, then the callable is not applied.</p>
+<pre><code class="language-php">    (new Some(&quot;foo&quot;))-&gt;map('strtoupper')-&gt;get(); // &quot;FOO&quot;
+</code></pre>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_map">						<code>PhpOption\Option::map()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_map">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="flatMap" id="_flatMap">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>flatMap(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Applies the callable to the value of the option if it is non-empty, and
+returns the return value of the callable…
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Applies the callable to the value of the option if it is non-empty, and
+returns the return value of the callable directly.</p>
+<p>In contrast to <code>map</code>, the return value of the callable is expected to
+be an Option itself; it is not automatically wrapped in Some().</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$callable</var>&nbsp;&nbsp;</td>
+										<td><p>must return an Option</p>
+</td>
+									</tr>
+							</table>
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_flatMap">						<code>PhpOption\Option::flatMap()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_flatMap">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="filter" id="_filter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>filter(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		If the option is empty, it is returned immediately without applying the callable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>If the option is empty, it is returned immediately without applying the callable.</p>
+<p>If the option is non-empty, the callable is applied, and if it returns true,
+the option itself is returned; otherwise, None is returned.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_filter">						<code>PhpOption\Option::filter()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_filter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="filterNot" id="_filterNot">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>filterNot(<span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		If the option is empty, it is returned immediately without applying the callable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>If the option is empty, it is returned immediately without applying the callable.</p>
+<p>If the option is non-empty, the callable is applied, and if it returns false,
+the option itself is returned; otherwise, None is returned.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_filterNot">						<code>PhpOption\Option::filterNot()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_filterNot">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="select" id="_select">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>select(<span><var>$value</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		If the option is empty, it is returned immediately.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>If the option is empty, it is returned immediately.</p>
+<p>If the option is non-empty, and its value does not equal the passed value
+(via a shallow comparison ===), then None is returned. Otherwise, the
+Option is returned.</p>
+<p>In other words, this will filter all but the passed value.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_select">						<code>PhpOption\Option::select()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_select">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="reject" id="_reject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>reject(<span><var>$value</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		If the option is empty, it is returned immediately.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>If the option is empty, it is returned immediately.</p>
+<p>If the option is non-empty, and its value does equal the passed value (via
+a shallow comparison ===), then None is returned; otherwise, the Option is
+returned.</p>
+<p>In other words, this will let all values through except the passed value.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_reject">						<code>PhpOption\Option::reject()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_reject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getIterator" id="_getIterator">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getIterator(): <a href="Traversable.html"><span title="Traversable">Traversable</span></a>&lt;T&gt;</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="IteratorAggregate.html#_getIterator">						<code>IteratorAggregate::getIterator()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getIterator">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="foldLeft" id="_foldLeft">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>foldLeft(<span><var>$initialValue</var></span>, <span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Binary operator for the initial value and the option's value.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Binary operator for the initial value and the option's value.</p>
+<p>If empty, the initial value is returned. If non-empty, the callable
+receives the initial value and the option's value as arguments.</p>
+<pre><code class="language-php">
+$some = new Some(5);
+    $none = None::create();
+    $result = $some-&gt;foldLeft(1, function($a, $b) { return $a + $b; }); // int(6)
+    $result = $none-&gt;foldLeft(1, function($a, $b) { return $a + $b; }); // int(1)
+
+// This can be used instead of something like the following:
+    $option = Option::fromValue($integerOrNull);
+    $result = 1;
+    if ( ! $option-&gt;isEmpty()) {
+        $result += $option-&gt;get();
+    }
+</code></pre>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_foldLeft">						<code>PhpOption\Option::foldLeft()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_foldLeft">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="foldRight" id="_foldRight">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>foldRight(<span><var>$initialValue</var></span>, <span><var>$callable</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		foldLeft() but with reversed arguments for the callable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>foldLeft() but with reversed arguments for the callable.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="PhpOption.Option.html#_foldRight">						<code>PhpOption\Option::foldRight()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_foldRight">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="PhpOption.Option.html"><span>PhpOption\Option</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="PhpOption.Option.html#_fromValue">fromValue()</a>, <a href="PhpOption.Option.html#_fromArraysValue">fromArraysValue()</a>, <a href="PhpOption.Option.html#_fromReturn">fromReturn()</a>, <a href="PhpOption.Option.html#_ensure">ensure()</a>, <a href="PhpOption.Option.html#_lift">lift()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

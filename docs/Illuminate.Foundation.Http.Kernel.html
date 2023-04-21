@@ -1,0 +1,1351 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Foundation\Http\Kernel |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.html">Foundation</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.Http.html">Http</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Foundation.Http.Kernel.html">
+							Kernel
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Foundation.Http.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Foundation.Http.Kernel.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Foundation.html">Foundation</a>\<a href="namespace-Illuminate.Foundation.Http.html">Http</a>\<a href="Illuminate.Foundation.Http.Kernel.html">Kernel</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>implements</code></th>
+			<td>
+<code><a href="Illuminate.Contracts.Http.Kernel.html"><span title="Illuminate\Contracts\Http\Kernel">Kernel</span></a></code>			</td>
+		</tr>
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Foundation\Http\Kernel</span></b>
+
+		implements
+			<a href="Illuminate.Contracts.Http.Kernel.html"><span title="Illuminate\Contracts\Http\Kernel">Kernel</span></a>
+
+		uses
+			<a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a>
+	<ul class="classTree">
+	<li>
+<a href="App.Http.Kernel.html"><span>App\Http\Kernel</span></a>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Foundation.Application.html"><span title="Illuminate\Contracts\Foundation\Application">Application</span></a> <var>$app</var></span>, <span><a href="Illuminate.Routing.Router.html"><span title="Illuminate\Routing\Router">Router</span></a> <var>$router</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new HTTP kernel instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new HTTP kernel instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="handle" id="_handle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>handle(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): <a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Handle an incoming HTTP request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Handle an incoming HTTP request.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Http.Kernel.html#_handle">						<code>Illuminate\Contracts\Http\Kernel::handle()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_handle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sendRequestThroughRouter" id="_sendRequestThroughRouter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>sendRequestThroughRouter(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): <a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Send the given request through the middleware / router.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Send the given request through the middleware / router.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sendRequestThroughRouter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bootstrap" id="_bootstrap">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bootstrap(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Bootstrap the application for HTTP requests.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Bootstrap the application for HTTP requests.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Http.Kernel.html#_bootstrap">						<code>Illuminate\Contracts\Http\Kernel::bootstrap()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bootstrap">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dispatchToRouter" id="_dispatchToRouter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>dispatchToRouter(): <a href="Closure.html"><span title="Closure">Closure</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the route dispatcher callback.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the route dispatcher callback.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_dispatchToRouter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="terminate" id="_terminate">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>terminate(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a> <var>$response</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Call the terminate method on any terminable middleware.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Call the terminate method on any terminable middleware.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Http.Kernel.html#_terminate">						<code>Illuminate\Contracts\Http\Kernel::terminate()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_terminate">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="terminateMiddleware" id="_terminateMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>terminateMiddleware(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a> <var>$response</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Call the terminate method on any terminable middleware.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Call the terminate method on any terminable middleware.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_terminateMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="whenRequestLifecycleIsLongerThan" id="_whenRequestLifecycleIsLongerThan">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>whenRequestLifecycleIsLongerThan(<span><a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|<a href="Carbon.CarbonInterval.html"><span title="Carbon\CarbonInterval">CarbonInterval</span></a>|float|int <var>$threshold</var></span>, <span>callable <var>$handler</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a callback to be invoked when the requests lifecycle duration exceeds a given amount of time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a callback to be invoked when the requests lifecycle duration exceeds a given amount of time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_whenRequestLifecycleIsLongerThan">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="requestStartedAt" id="_requestStartedAt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>requestStartedAt(): <a href="Illuminate.Support.Carbon.html"><span title="Illuminate\Support\Carbon">Carbon</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		When the request being handled started.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>When the request being handled started.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_requestStartedAt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="gatherRouteMiddleware" id="_gatherRouteMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>gatherRouteMiddleware(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Gather the route middleware for the given request.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Gather the route middleware for the given request.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_gatherRouteMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parseMiddleware" id="_parseMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parseMiddleware(<span>string <var>$middleware</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Parse a middleware string to get the name and parameters.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Parse a middleware string to get the name and parameters.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parseMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasMiddleware" id="_hasMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasMiddleware(<span>string <var>$middleware</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the kernel has a given middleware.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the kernel has a given middleware.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prependMiddleware" id="_prependMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prependMiddleware(<span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new middleware to the beginning of the stack if it does not already exist.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new middleware to the beginning of the stack if it does not already exist.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prependMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pushMiddleware" id="_pushMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pushMiddleware(<span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a new middleware to end of the stack if it does not already exist.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a new middleware to end of the stack if it does not already exist.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pushMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prependMiddlewareToGroup" id="_prependMiddlewareToGroup">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prependMiddlewareToGroup(<span>string <var>$group</var></span>, <span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Prepend the given middleware to the given middleware group.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepend the given middleware to the given middleware group.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="InvalidArgumentException.html"><span>InvalidArgumentException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prependMiddlewareToGroup">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="appendMiddlewareToGroup" id="_appendMiddlewareToGroup">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>appendMiddlewareToGroup(<span>string <var>$group</var></span>, <span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Append the given middleware to the given middleware group.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Append the given middleware to the given middleware group.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="InvalidArgumentException.html"><span>InvalidArgumentException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_appendMiddlewareToGroup">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prependToMiddlewarePriority" id="_prependToMiddlewarePriority">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prependToMiddlewarePriority(<span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Prepend the given middleware to the middleware priority list.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepend the given middleware to the middleware priority list.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prependToMiddlewarePriority">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="appendToMiddlewarePriority" id="_appendToMiddlewarePriority">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>appendToMiddlewarePriority(<span>string <var>$middleware</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Append the given middleware to the middleware priority list.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Append the given middleware to the middleware priority list.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_appendToMiddlewarePriority">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="syncMiddlewareToRouter" id="_syncMiddlewareToRouter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>syncMiddlewareToRouter(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Sync the current state of the middleware to the router.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Sync the current state of the middleware to the router.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_syncMiddlewareToRouter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getMiddlewarePriority" id="_getMiddlewarePriority">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getMiddlewarePriority(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the priority-sorted list of middleware.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the priority-sorted list of middleware.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getMiddlewarePriority">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bootstrappers" id="_bootstrappers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bootstrappers(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the bootstrap classes for the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the bootstrap classes for the application.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bootstrappers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="reportException" id="_reportException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>reportException(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Report the exception to the exception handler.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Report the exception to the exception handler.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_reportException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderException" id="_renderException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderException(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Render the exception to a response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render the exception to a response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getMiddlewareGroups" id="_getMiddlewareGroups">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getMiddlewareGroups(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the application's route middleware groups.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the application's route middleware groups.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getMiddlewareGroups">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getRouteMiddleware" id="_getRouteMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><span class="deprecated">getRouteMiddleware</span>(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the application's route middleware aliases.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the application's route middleware aliases.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getRouteMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getMiddlewareAliases" id="_getMiddlewareAliases">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getMiddlewareAliases(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the application's route middleware aliases.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the application's route middleware aliases.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getMiddlewareAliases">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getApplication" id="_getApplication">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getApplication(): <a href="Illuminate.Contracts.Foundation.Application.html"><span title="Illuminate\Contracts\Foundation\Application">Application</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the Laravel application instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the Laravel application instance.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Http.Kernel.html#_getApplication">						<code>Illuminate\Contracts\Http\Kernel::getApplication()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getApplication">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setApplication" id="_setApplication">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setApplication(<span><a href="Illuminate.Contracts.Foundation.Application.html"><span title="Illuminate\Contracts\Foundation\Application">Application</span></a> <var>$app</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the Laravel application instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the Laravel application instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setApplication">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.InteractsWithTime.html"><span>Illuminate\Support\InteractsWithTime</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.InteractsWithTime.html#_secondsUntil">secondsUntil()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_availableAt">availableAt()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_parseDateInterval">parseDateInterval()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_currentTime">currentTime()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="app" id="$app">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Foundation.Application.html"><span title="Illuminate\Contracts\Foundation\Application">Application</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$app</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$app">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="router" id="$router">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Routing.Router.html"><span title="Illuminate\Routing\Router">Router</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$router</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$router">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bootstrappers" id="$bootstrappers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string[]</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$bootstrappers</var> = [
+	<a href="Illuminate.Foundation.Bootstrap.LoadEnvironmentVariables.html"><span title="Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables">LoadEnvironmentVariables</span></a>::class,
+	<a href="Illuminate.Foundation.Bootstrap.LoadConfiguration.html"><span title="Illuminate\Foundation\Bootstrap\LoadConfiguration">LoadConfiguration</span></a>::class,
+	<a href="Illuminate.Foundation.Bootstrap.HandleExceptions.html"><span title="Illuminate\Foundation\Bootstrap\HandleExceptions">HandleExceptions</span></a>::class,
+	<a href="Illuminate.Foundation.Bootstrap.RegisterFacades.html"><span title="Illuminate\Foundation\Bootstrap\RegisterFacades">RegisterFacades</span></a>::class,
+	<a href="Illuminate.Foundation.Bootstrap.RegisterProviders.html"><span title="Illuminate\Foundation\Bootstrap\RegisterProviders">RegisterProviders</span></a>::class,
+	<a href="Illuminate.Foundation.Bootstrap.BootProviders.html"><span title="Illuminate\Foundation\Bootstrap\BootProviders">BootProviders</span></a>::class,
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$bootstrappers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middleware" id="$middleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;int, class-string|string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$middleware</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middlewareGroups" id="$middlewareGroups">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, array&lt;int, class-string|string&gt;&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$middlewareGroups</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middlewareGroups">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="routeMiddleware" id="$routeMiddleware">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, class-string|string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var><span class="deprecated">$routeMiddleware</span></var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$routeMiddleware">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middlewareAliases" id="$middlewareAliases">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, class-string|string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$middlewareAliases</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middlewareAliases">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="requestLifecycleDurationHandlers" id="$requestLifecycleDurationHandlers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$requestLifecycleDurationHandlers</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$requestLifecycleDurationHandlers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="requestStartedAt" id="$requestStartedAt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Support.Carbon.html"><span title="Illuminate\Support\Carbon">Carbon</span></a>|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$requestStartedAt</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$requestStartedAt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="middlewarePriority" id="$middlewarePriority">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string[]</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$middlewarePriority</var> = [
+	<a href="Illuminate.Foundation.Http.Middleware.HandlePrecognitiveRequests.html"><span title="Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests">HandlePrecognitiveRequests</span></a>::class,
+	<a href="Illuminate.Cookie.Middleware.EncryptCookies.html"><span title="Illuminate\Cookie\Middleware\EncryptCookies">EncryptCookies</span></a>::class,
+	<a href="Illuminate.Cookie.Middleware.AddQueuedCookiesToResponse.html"><span title="Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse">AddQueuedCookiesToResponse</span></a>::class,
+	<a href="Illuminate.Session.Middleware.StartSession.html"><span title="Illuminate\Session\Middleware\StartSession">StartSession</span></a>::class,
+	<a href="Illuminate.View.Middleware.ShareErrorsFromSession.html"><span title="Illuminate\View\Middleware\ShareErrorsFromSession">ShareErrorsFromSession</span></a>::class,
+	<a href="Illuminate.Contracts.Auth.Middleware.AuthenticatesRequests.html"><span title="Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests">AuthenticatesRequests</span></a>::class,
+	<a href="Illuminate.Routing.Middleware.ThrottleRequests.html"><span title="Illuminate\Routing\Middleware\ThrottleRequests">ThrottleRequests</span></a>::class,
+	<a href="Illuminate.Routing.Middleware.ThrottleRequestsWithRedis.html"><span title="Illuminate\Routing\Middleware\ThrottleRequestsWithRedis">ThrottleRequestsWithRedis</span></a>::class,
+	<a href="Illuminate.Contracts.Session.Middleware.AuthenticatesSessions.html"><span title="Illuminate\Contracts\Session\Middleware\AuthenticatesSessions">AuthenticatesSessions</span></a>::class,
+	<a href="Illuminate.Routing.Middleware.SubstituteBindings.html"><span title="Illuminate\Routing\Middleware\SubstituteBindings">SubstituteBindings</span></a>::class,
+	<a href="Illuminate.Auth.Middleware.Authorize.html"><span title="Illuminate\Auth\Middleware\Authorize">Authorize</span></a>::class,
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$middlewarePriority">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

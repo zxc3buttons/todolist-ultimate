@@ -1,0 +1,1561 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Foundation\Exceptions\Handler |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.html">Foundation</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Foundation.Exceptions.html">Exceptions</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Foundation.Exceptions.Handler.html">
+							Handler
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Foundation.Exceptions.ReportableHandler.html">
+							ReportableHandler
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Foundation.Exceptions.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Foundation.Exceptions.Handler.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Foundation.html">Foundation</a>\<a href="namespace-Illuminate.Foundation.Exceptions.html">Exceptions</a>\<a href="Illuminate.Foundation.Exceptions.Handler.html">Handler</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>implements</code></th>
+			<td>
+<code><a href="Illuminate.Contracts.Debug.ExceptionHandler.html"><span title="Illuminate\Contracts\Debug\ExceptionHandler">ExceptionHandler</span></a></code>			</td>
+		</tr>
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.Traits.ReflectsClosures.html"><span title="Illuminate\Support\Traits\ReflectsClosures">ReflectsClosures</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Foundation\Exceptions\Handler</span></b>
+
+		implements
+			<a href="Illuminate.Contracts.Debug.ExceptionHandler.html"><span title="Illuminate\Contracts\Debug\ExceptionHandler">ExceptionHandler</span></a>
+
+		uses
+			<a href="Illuminate.Support.Traits.ReflectsClosures.html"><span title="Illuminate\Support\Traits\ReflectsClosures">ReflectsClosures</span></a>
+	<ul class="classTree">
+	<li>
+<a href="App.Exceptions.Handler.html"><span>App\Exceptions\Handler</span></a>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a> <var>$container</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new exception handler instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new exception handler instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="register" id="_register">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>register(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register the exception handling callbacks for the application.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register the exception handling callbacks for the application.</p>
+</div>
+
+
+
+
+		<h4>Overriden by</h4>
+		<ul>
+				<li>
+<a href="App.Exceptions.Handler.html#_register">						<code>App\Exceptions\Handler::register()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_register">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="reportable" id="_reportable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>reportable(<span>callable <var>$reportUsing</var></span>): <a href="Illuminate.Foundation.Exceptions.ReportableHandler.html"><span title="Illuminate\Foundation\Exceptions\ReportableHandler">ReportableHandler</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Register a reportable callback.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a reportable callback.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_reportable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderable" id="_renderable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderable(<span>callable <var>$renderUsing</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a renderable callback.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a renderable callback.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="map" id="_map">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>map(<span><a href="Closure.html"><span title="Closure">Closure</span></a>|string <var>$from</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a>|string|null <var>$to</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a new exception mapping.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a new exception mapping.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="InvalidArgumentException.html"><span>InvalidArgumentException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_map">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="ignore" id="_ignore">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>ignore(<span>string <var>$class</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Indicate that the given exception type should not be reported.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Indicate that the given exception type should not be reported.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_ignore">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="level" id="_level">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>level(<span>class-string&lt;<a href="Throwable.html"><span title="Throwable">Throwable</span></a>&gt; <var>$type</var></span>, <span><a href="Psr.Log.LogLevel.html"><span title="Psr\Log\LogLevel">LogLevel</span></a>::* <var>$level</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the log level for the given exception type.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the log level for the given exception type.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_level">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="report" id="_report">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>report(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Report or log an exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Report or log an exception.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Throwable.html"><span>Throwable</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Debug.ExceptionHandler.html#_report">						<code>Illuminate\Contracts\Debug\ExceptionHandler::report()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_report">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="shouldReport" id="_shouldReport">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>shouldReport(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the exception should be reported.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the exception should be reported.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Debug.ExceptionHandler.html#_shouldReport">						<code>Illuminate\Contracts\Debug\ExceptionHandler::shouldReport()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_shouldReport">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="shouldntReport" id="_shouldntReport">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>shouldntReport(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the exception is in the "do not report" list.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the exception is in the &quot;do not report&quot; list.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_shouldntReport">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="stopIgnoring" id="_stopIgnoring">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>stopIgnoring(<span>string <var>$exception</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Remove the given exception class from the list of exceptions that should be ignored.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Remove the given exception class from the list of exceptions that should be ignored.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_stopIgnoring">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildExceptionContext" id="_buildExceptionContext">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildExceptionContext(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Create the context array for logging the given exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create the context array for logging the given exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildExceptionContext">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="exceptionContext" id="_exceptionContext">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>exceptionContext(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the default exception context variables for logging.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the default exception context variables for logging.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_exceptionContext">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="context" id="_context">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>context(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the default context variables for logging.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the default context variables for logging.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_context">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="render" id="_render">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>render(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Render an exception into an HTTP response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render an exception into an HTTP response.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Throwable.html"><span>Throwable</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Debug.ExceptionHandler.html#_render">						<code>Illuminate\Contracts\Debug\ExceptionHandler::render()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_render">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prepareException" id="_prepareException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prepareException(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Throwable.html"><span title="Throwable">Throwable</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Prepare exception for rendering.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepare exception for rendering.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prepareException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="mapException" id="_mapException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>mapException(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Throwable.html"><span title="Throwable">Throwable</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Map the exception using a registered mapper if possible.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Map the exception using a registered mapper if possible.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_mapException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderViaCallbacks" id="_renderViaCallbacks">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderViaCallbacks(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Try to render a response from request and exception via render callbacks.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Try to render a response from request and exception via render callbacks.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderViaCallbacks">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderExceptionResponse" id="_renderExceptionResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderExceptionResponse(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Render a default exception response if any.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render a default exception response if any.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderExceptionResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="unauthenticated" id="_unauthenticated">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>unauthenticated(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Auth.AuthenticationException.html"><span title="Illuminate\Auth\AuthenticationException">AuthenticationException</span></a> <var>$exception</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Convert an authentication exception into a response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert an authentication exception into a response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_unauthenticated">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="convertValidationExceptionToResponse" id="_convertValidationExceptionToResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>convertValidationExceptionToResponse(<span><a href="Illuminate.Validation.ValidationException.html"><span title="Illuminate\Validation\ValidationException">ValidationException</span></a> <var>$e</var></span>, <span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a response object from the given validation exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a response object from the given validation exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_convertValidationExceptionToResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="invalid" id="_invalid">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>invalid(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Validation.ValidationException.html"><span title="Illuminate\Validation\ValidationException">ValidationException</span></a> <var>$exception</var></span>): <a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Convert a validation exception into a response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert a validation exception into a response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_invalid">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="invalidJson" id="_invalidJson">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>invalidJson(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Illuminate.Validation.ValidationException.html"><span title="Illuminate\Validation\ValidationException">ValidationException</span></a> <var>$exception</var></span>): <a href="Illuminate.Http.JsonResponse.html"><span title="Illuminate\Http\JsonResponse">JsonResponse</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Convert a validation exception into a JSON response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert a validation exception into a JSON response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_invalidJson">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="shouldReturnJson" id="_shouldReturnJson">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>shouldReturnJson(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the exception handler response should be JSON.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the exception handler response should be JSON.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_shouldReturnJson">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prepareResponse" id="_prepareResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prepareResponse(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Prepare a response for the given exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepare a response for the given exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prepareResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="convertExceptionToResponse" id="_convertExceptionToResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>convertExceptionToResponse(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a Symfony response for the given exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a Symfony response for the given exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_convertExceptionToResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderExceptionContent" id="_renderExceptionContent">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderExceptionContent(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the response content for the given exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the response content for the given exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderExceptionContent">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderExceptionWithCustomRenderer" id="_renderExceptionWithCustomRenderer">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderExceptionWithCustomRenderer(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Render an exception to a string using the registered `ExceptionRenderer`.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render an exception to a string using the registered <code>ExceptionRenderer</code>.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderExceptionWithCustomRenderer">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderExceptionWithSymfony" id="_renderExceptionWithSymfony">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderExceptionWithSymfony(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>, <span>bool <var>$debug</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Render an exception to a string using Symfony.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render an exception to a string using Symfony.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderExceptionWithSymfony">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderHttpException" id="_renderHttpException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderHttpException(<span><a href="Symfony.Component.HttpKernel.Exception.HttpExceptionInterface.html"><span title="Symfony\Component\HttpKernel\Exception\HttpExceptionInterface">HttpExceptionInterface</span></a> <var>$e</var></span>): <a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Render the given HttpException.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render the given HttpException.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderHttpException">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="registerErrorViewPaths" id="_registerErrorViewPaths">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>registerErrorViewPaths(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register the error template hint paths.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register the error template hint paths.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_registerErrorViewPaths">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getHttpExceptionView" id="_getHttpExceptionView">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getHttpExceptionView(<span><a href="Symfony.Component.HttpKernel.Exception.HttpExceptionInterface.html"><span title="Symfony\Component\HttpKernel\Exception\HttpExceptionInterface">HttpExceptionInterface</span></a> <var>$e</var></span>): string|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the view used to render HTTP exceptions.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the view used to render HTTP exceptions.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getHttpExceptionView">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="toIlluminateResponse" id="_toIlluminateResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>toIlluminateResponse(<span><a href="Symfony.Component.HttpFoundation.Response.html"><span title="Symfony\Component\HttpFoundation\Response">Response</span></a> <var>$response</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Illuminate.Http.Response.html"><span title="Illuminate\Http\Response">Response</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Map the given exception into an Illuminate response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Map the given exception into an Illuminate response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_toIlluminateResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="prepareJsonResponse" id="_prepareJsonResponse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>prepareJsonResponse(<span><a href="Illuminate.Http.Request.html"><span title="Illuminate\Http\Request">Request</span></a> <var>$request</var></span>, <span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): <a href="Illuminate.Http.JsonResponse.html"><span title="Illuminate\Http\JsonResponse">JsonResponse</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Prepare a JSON response for the given exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Prepare a JSON response for the given exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_prepareJsonResponse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="convertExceptionToArray" id="_convertExceptionToArray">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>convertExceptionToArray(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Convert the given exception to an array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert the given exception to an array.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_convertExceptionToArray">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="isHttpException" id="_isHttpException">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>isHttpException(<span><a href="Throwable.html"><span title="Throwable">Throwable</span></a> <var>$e</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given exception is an HTTP exception.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given exception is an HTTP exception.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_isHttpException">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.ReflectsClosures.html"><span>Illuminate\Support\Traits\ReflectsClosures</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.ReflectsClosures.html#_firstClosureParameterType">firstClosureParameterType()</a>, <a href="Illuminate.Support.Traits.ReflectsClosures.html#_firstClosureParameterTypes">firstClosureParameterTypes()</a>, <a href="Illuminate.Support.Traits.ReflectsClosures.html#_closureParameterTypes">closureParameterTypes()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="container" id="$container">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Container.Container.html"><span title="Illuminate\Contracts\Container\Container">Container</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$container</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$container">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dontReport" id="$dontReport">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;int, class-string&lt;<a href="Throwable.html"><span title="Throwable">Throwable</span></a>&gt;&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$dontReport</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$dontReport">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="reportCallbacks" id="$reportCallbacks">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Foundation.Exceptions.ReportableHandler.html"><span title="Illuminate\Foundation\Exceptions\ReportableHandler">ReportableHandler</span></a>[]</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$reportCallbacks</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$reportCallbacks">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="levels" id="$levels">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;class-string&lt;<a href="Throwable.html"><span title="Throwable">Throwable</span></a>&gt;, <a href="Psr.Log.LogLevel.html"><span title="Psr\Log\LogLevel">LogLevel</span></a>::*&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$levels</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$levels">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderCallbacks" id="$renderCallbacks">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Closure.html"><span title="Closure">Closure</span></a>[]</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$renderCallbacks</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$renderCallbacks">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="exceptionMap" id="$exceptionMap">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;string, <a href="Closure.html"><span title="Closure">Closure</span></a>&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$exceptionMap</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$exceptionMap">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="internalDontReport" id="$internalDontReport">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;int, class-string&lt;<a href="Throwable.html"><span title="Throwable">Throwable</span></a>&gt;&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$internalDontReport</var> = [
+	<a href="Illuminate.Auth.AuthenticationException.html"><span title="Illuminate\Auth\AuthenticationException">AuthenticationException</span></a>::class,
+	<a href="Illuminate.Auth.Access.AuthorizationException.html"><span title="Illuminate\Auth\Access\AuthorizationException">AuthorizationException</span></a>::class,
+	<a href="Illuminate.Routing.Exceptions.BackedEnumCaseNotFoundException.html"><span title="Illuminate\Routing\Exceptions\BackedEnumCaseNotFoundException">BackedEnumCaseNotFoundException</span></a>::class,
+	<a href="Symfony.Component.HttpKernel.Exception.HttpException.html"><span title="Symfony\Component\HttpKernel\Exception\HttpException">HttpException</span></a>::class,
+	<a href="Illuminate.Http.Exceptions.HttpResponseException.html"><span title="Illuminate\Http\Exceptions\HttpResponseException">HttpResponseException</span></a>::class,
+	<a href="Illuminate.Database.Eloquent.ModelNotFoundException.html"><span title="Illuminate\Database\Eloquent\ModelNotFoundException">ModelNotFoundException</span></a>::class,
+	<a href="Illuminate.Database.MultipleRecordsFoundException.html"><span title="Illuminate\Database\MultipleRecordsFoundException">MultipleRecordsFoundException</span></a>::class,
+	<a href="Illuminate.Database.RecordsNotFoundException.html"><span title="Illuminate\Database\RecordsNotFoundException">RecordsNotFoundException</span></a>::class,
+	<a href="Symfony.Component.HttpFoundation.Exception.SuspiciousOperationException.html"><span title="Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException">SuspiciousOperationException</span></a>::class,
+	<a href="Illuminate.Session.TokenMismatchException.html"><span title="Illuminate\Session\TokenMismatchException">TokenMismatchException</span></a>::class,
+	<a href="Illuminate.Validation.ValidationException.html"><span title="Illuminate\Validation\ValidationException">ValidationException</span></a>::class,
+]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$internalDontReport">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dontFlash" id="$dontFlash">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array&lt;int, string&gt;</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$dontFlash</var> = [<span class="php-str">'current_password'</span>, <span class="php-str">'password'</span>, <span class="php-str">'password_confirmation'</span>]</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$dontFlash">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

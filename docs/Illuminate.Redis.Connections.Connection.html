@@ -1,0 +1,708 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Redis\Connections\Connection |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Redis.html">Redis</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Redis.Connections.html">Connections</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Redis.Connections.Connection.html">
+							Connection
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Redis.Connections.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Redis.Connections.Connection.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Redis.html">Redis</a>\<a href="namespace-Illuminate.Redis.Connections.html">Connections</a>\<a href="Illuminate.Redis.Connections.Connection.html">Connection</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+			<tr><th><code>abstract</code></th></tr>
+
+
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="createSubscription" id="_createSubscription">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					abstract
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createSubscription(<span>array|string <var>$channels</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>, <span>string <var>$method</var> = <span class="php-str">'subscribe'</span></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Subscribe to a set of given channels for messages.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Subscribe to a set of given channels for messages.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createSubscription">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="funnel" id="_funnel">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>funnel(<span>string <var>$name</var></span>): <a href="Illuminate.Redis.Limiters.ConcurrencyLimiterBuilder.html"><span title="Illuminate\Redis\Limiters\ConcurrencyLimiterBuilder">ConcurrencyLimiterBuilder</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Funnel a callback for a maximum number of simultaneous executions.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Funnel a callback for a maximum number of simultaneous executions.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_funnel">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="throttle" id="_throttle">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>throttle(<span>string <var>$name</var></span>): <a href="Illuminate.Redis.Limiters.DurationLimiterBuilder.html"><span title="Illuminate\Redis\Limiters\DurationLimiterBuilder">DurationLimiterBuilder</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Throttle a callback for a maximum number of executions over a given duration.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Throttle a callback for a maximum number of executions over a given duration.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_throttle">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="client" id="_client">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>client(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the underlying Redis client.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the underlying Redis client.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_client">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="subscribe" id="_subscribe">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>subscribe(<span>array|string <var>$channels</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Subscribe to a set of given channels for messages.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Subscribe to a set of given channels for messages.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_subscribe">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="psubscribe" id="_psubscribe">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>psubscribe(<span>array|string <var>$channels</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Subscribe to a set of given channels with wildcards.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Subscribe to a set of given channels with wildcards.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_psubscribe">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="command" id="_command">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>command(<span>string <var>$method</var></span>, <span>array <var>$parameters</var> = []</span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Run a command against the Redis database.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run a command against the Redis database.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_command">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="event" id="_event">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>event(<span>mixed <var>$event</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Fire the given event if possible.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Fire the given event if possible.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_event">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="listen" id="_listen">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>listen(<span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a Redis command listener with the connection.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a Redis command listener with the connection.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_listen">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getName" id="_getName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getName(): string|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the connection name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the connection name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setName" id="_setName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setName(<span>string <var>$name</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the connections name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the connections name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getEventDispatcher" id="_getEventDispatcher">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getEventDispatcher(): <a href="Illuminate.Contracts.Events.Dispatcher.html"><span title="Illuminate\Contracts\Events\Dispatcher">Dispatcher</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Get the event dispatcher used by the connection.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the event dispatcher used by the connection.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getEventDispatcher">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setEventDispatcher" id="_setEventDispatcher">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setEventDispatcher(<span><a href="Illuminate.Contracts.Events.Dispatcher.html"><span title="Illuminate\Contracts\Events\Dispatcher">Dispatcher</span></a> <var>$events</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the event dispatcher instance on the connection.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the event dispatcher instance on the connection.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setEventDispatcher">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="unsetEventDispatcher" id="_unsetEventDispatcher">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>unsetEventDispatcher(): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Unset the event dispatcher instance on the connection.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Unset the event dispatcher instance on the connection.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_unsetEventDispatcher">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__call" id="___call">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__call(<span>string <var>$method</var></span>, <span>array <var>$parameters</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Pass other method calls down to the underlying client.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Pass other method calls down to the underlying client.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___call">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Macroable.html#_macro">macro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_mixin">mixin()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_hasMacro">hasMacro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_flushMacros">flushMacros()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___callStatic">__callStatic()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="client" id="$client">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Redis.html"><span title="Redis">Redis</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$client</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$client">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="name" id="$name">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$name</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$name">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="events" id="$events">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Events.Dispatcher.html"><span title="Illuminate\Contracts\Events\Dispatcher">Dispatcher</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$events</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$events">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Support.Traits.Macroable.html#$macros">$macros</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

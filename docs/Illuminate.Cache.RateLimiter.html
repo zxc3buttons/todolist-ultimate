@@ -1,0 +1,608 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Cache\RateLimiter |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Cache.html">Cache</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Cache.RateLimiter.html">
+							RateLimiter
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Cache.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Cache.RateLimiter.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Cache.html">Cache</a>\<a href="Illuminate.Cache.RateLimiter.html">RateLimiter</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.InteractsWithTime.html"><span title="Illuminate\Support\InteractsWithTime">InteractsWithTime</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span><a href="Illuminate.Contracts.Cache.Repository.html"><span title="Illuminate\Contracts\Cache\Repository">Repository</span></a> <var>$cache</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new rate limiter instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new rate limiter instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="for" id="_for">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>for(<span>string <var>$name</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a named limiter configuration.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a named limiter configuration.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_for">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="limiter" id="_limiter">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>limiter(<span>string <var>$name</var></span>): <a href="Closure.html"><span title="Closure">Closure</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the given named rate limiter.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the given named rate limiter.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_limiter">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attempt" id="_attempt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attempt(<span>string <var>$key</var></span>, <span>int <var>$maxAttempts</var></span>, <span><a href="Closure.html"><span title="Closure">Closure</span></a> <var>$callback</var></span>, <span>int <var>$decaySeconds</var> = <span class="php-num">60</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Attempts to execute a callback if it's not limited.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attempts to execute a callback if it's not limited.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attempt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="tooManyAttempts" id="_tooManyAttempts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>tooManyAttempts(<span>string <var>$key</var></span>, <span>int <var>$maxAttempts</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given key has been "accessed" too many times.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given key has been &quot;accessed&quot; too many times.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_tooManyAttempts">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hit" id="_hit">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hit(<span>string <var>$key</var></span>, <span>int <var>$decaySeconds</var> = <span class="php-num">60</span></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Increment the counter for a given key for a given decay time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Increment the counter for a given key for a given decay time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hit">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attempts" id="_attempts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attempts(<span>string <var>$key</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the number of attempts for the given key.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the number of attempts for the given key.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attempts">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="resetAttempts" id="_resetAttempts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>resetAttempts(<span>string <var>$key</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Reset the number of attempts for the given key.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Reset the number of attempts for the given key.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_resetAttempts">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="remaining" id="_remaining">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>remaining(<span>string <var>$key</var></span>, <span>int <var>$maxAttempts</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the number of retries left for the given key.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the number of retries left for the given key.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_remaining">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="retriesLeft" id="_retriesLeft">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>retriesLeft(<span>string <var>$key</var></span>, <span>int <var>$maxAttempts</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the number of retries left for the given key.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the number of retries left for the given key.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_retriesLeft">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="clear" id="_clear">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>clear(<span>string <var>$key</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Clear the hits and lockout timer for the given key.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Clear the hits and lockout timer for the given key.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_clear">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="availableIn" id="_availableIn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>availableIn(<span>string <var>$key</var></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the number of seconds until the "key" is accessible again.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the number of seconds until the &quot;key&quot; is accessible again.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_availableIn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cleanRateLimiterKey" id="_cleanRateLimiterKey">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>cleanRateLimiterKey(<span>string <var>$key</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Clean the rate limiter key from unicode characters.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Clean the rate limiter key from unicode characters.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_cleanRateLimiterKey">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.InteractsWithTime.html"><span>Illuminate\Support\InteractsWithTime</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.InteractsWithTime.html#_secondsUntil">secondsUntil()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_availableAt">availableAt()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_parseDateInterval">parseDateInterval()</a>, <a href="Illuminate.Support.InteractsWithTime.html#_currentTime">currentTime()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="cache" id="$cache">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap"><a href="Illuminate.Contracts.Cache.Repository.html"><span title="Illuminate\Contracts\Cache\Repository">Repository</span></a></code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$cache</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$cache">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="limiters" id="$limiters">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$limiters</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$limiters">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

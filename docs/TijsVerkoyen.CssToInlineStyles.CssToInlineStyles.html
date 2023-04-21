@@ -1,0 +1,336 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class TijsVerkoyen\CssToInlineStyles\CssToInlineStyles |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-TijsVerkoyen.html">TijsVerkoyen</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-TijsVerkoyen.CssToInlineStyles.html">CssToInlineStyles</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="TijsVerkoyen.CssToInlineStyles.CssToInlineStyles.html">
+							CssToInlineStyles
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-TijsVerkoyen.CssToInlineStyles.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="TijsVerkoyen.CssToInlineStyles.CssToInlineStyles.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-TijsVerkoyen.html">TijsVerkoyen</a>\<a href="namespace-TijsVerkoyen.CssToInlineStyles.html">CssToInlineStyles</a>\<a href="TijsVerkoyen.CssToInlineStyles.CssToInlineStyles.html">CssToInlineStyles</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct()</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="convert" id="_convert">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>convert(<span>string <var>$html</var></span>, <span>string <var>$css</var> = <span class="php-kw">null</span></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Will inline the $css into the given $html
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Will inline the $css into the given $html</p>
+<p>Remark: if the html contains &lt;style>-tags those will be used, the rules
+in $css will be appended.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_convert">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="inlineCssOnElement" id="_inlineCssOnElement">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>inlineCssOnElement(<span><a href="DOMElement.html"><span title="DOMElement">DOMElement</span></a> <var>$element</var></span>, <span><a href="TijsVerkoyen.CssToInlineStyles.Css.Property.Property.html"><span title="TijsVerkoyen\CssToInlineStyles\Css\Property\Property">Property</span></a>[] <var>$properties</var></span>): <a href="DOMElement.html"><span title="DOMElement">DOMElement</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Inline the given properties on an given DOMElement
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Inline the given properties on an given DOMElement</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_inlineCssOnElement">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getInlineStyles" id="_getInlineStyles">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getInlineStyles(<span><a href="DOMElement.html"><span title="DOMElement">DOMElement</span></a> <var>$element</var></span>): <a href="TijsVerkoyen.CssToInlineStyles.Css.Property.Property.html"><span title="TijsVerkoyen\CssToInlineStyles\Css\Property\Property">Property</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the current inline styles for a given DOMElement
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the current inline styles for a given DOMElement</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getInlineStyles">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createDomDocumentFromHtml" id="_createDomDocumentFromHtml">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createDomDocumentFromHtml(<span>string <var>$html</var></span>): <a href="DOMDocument.html"><span title="DOMDocument">DOMDocument</span></a></code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createDomDocumentFromHtml">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getHtmlFromDocument" id="_getHtmlFromDocument">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getHtmlFromDocument(<span><a href="DOMDocument.html"><span title="DOMDocument">DOMDocument</span></a> <var>$document</var></span>): string</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getHtmlFromDocument">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="inline" id="_inline">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>inline(<span><a href="DOMDocument.html"><span title="DOMDocument">DOMDocument</span></a> <var>$document</var></span>, <span><a href="TijsVerkoyen.CssToInlineStyles.Css.Rule.Rule.html"><span title="TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule">Rule</span></a>[] <var>$rules</var></span>): <a href="DOMDocument.html"><span title="DOMDocument">DOMDocument</span></a></code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_inline">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1588 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Trait Illuminate\Console\Scheduling\ManagesFrequencies |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Console.html">Console</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Console.Scheduling.html">Scheduling</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Console.Scheduling.CallbackEvent.html">
+							CallbackEvent
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.Event.html">
+							Event
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.Schedule.html">
+							Schedule
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Interfaces</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Console.Scheduling.EventMutex.html">
+							EventMutex
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Console.Scheduling.SchedulingMutex.html">
+							SchedulingMutex
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Traits</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Console.Scheduling.ManagesFrequencies.html">
+							ManagesFrequencies
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Console.Scheduling.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Console.Scheduling.ManagesFrequencies.html">Trait</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Trait <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Console.html">Console</a>\<a href="namespace-Illuminate.Console.Scheduling.html">Scheduling</a>\<a href="Illuminate.Console.Scheduling.ManagesFrequencies.html">ManagesFrequencies</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+	</table>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<b><span class="active">Illuminate\Console\Scheduling\ManagesFrequencies</span></b>
+
+
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Console.Scheduling.Event.html"><span>Illuminate\Console\Scheduling\Event</span></a>
+
+
+		uses
+			<a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a>, 
+			<b><span class="active" title="Illuminate\Console\Scheduling\ManagesFrequencies">ManagesFrequencies</span></b>, 
+			<a href="Illuminate.Support.Traits.ReflectsClosures.html"><span title="Illuminate\Support\Traits\ReflectsClosures">ReflectsClosures</span></a>
+	<ul class="classTree">
+	<li>
+<a href="Illuminate.Console.Scheduling.CallbackEvent.html"><span>Illuminate\Console\Scheduling\CallbackEvent</span></a>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="cron" id="_cron">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>cron(<span>string <var>$expression</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		The Cron expression representing the event's frequency.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>The Cron expression representing the event's frequency.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_cron">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="between" id="_between">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>between(<span>string <var>$startTime</var></span>, <span>string <var>$endTime</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run between start and end time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run between start and end time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_between">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="unlessBetween" id="_unlessBetween">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>unlessBetween(<span>string <var>$startTime</var></span>, <span>string <var>$endTime</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to not run between start and end time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to not run between start and end time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_unlessBetween">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyMinute" id="_everyMinute">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyMinute(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every minute.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every minute.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyMinute">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyTwoMinutes" id="_everyTwoMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyTwoMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every two minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every two minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyTwoMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyThreeMinutes" id="_everyThreeMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyThreeMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every three minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every three minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyThreeMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyFourMinutes" id="_everyFourMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyFourMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every four minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every four minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyFourMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyFiveMinutes" id="_everyFiveMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyFiveMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every five minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every five minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyFiveMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyTenMinutes" id="_everyTenMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyTenMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every ten minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every ten minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyTenMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyFifteenMinutes" id="_everyFifteenMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyFifteenMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every fifteen minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every fifteen minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyFifteenMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyThirtyMinutes" id="_everyThirtyMinutes">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyThirtyMinutes(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every thirty minutes.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every thirty minutes.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyThirtyMinutes">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hourly" id="_hourly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hourly(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run hourly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run hourly.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hourly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hourlyAt" id="_hourlyAt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hourlyAt(<span>array|int <var>$offset</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run hourly at a given offset in the hour.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run hourly at a given offset in the hour.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hourlyAt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyOddHour" id="_everyOddHour">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyOddHour(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every odd hour.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every odd hour.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyOddHour">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyTwoHours" id="_everyTwoHours">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyTwoHours(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every two hours.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every two hours.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyTwoHours">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyThreeHours" id="_everyThreeHours">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyThreeHours(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every three hours.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every three hours.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyThreeHours">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everyFourHours" id="_everyFourHours">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everyFourHours(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every four hours.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every four hours.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everyFourHours">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="everySixHours" id="_everySixHours">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>everySixHours(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run every six hours.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run every six hours.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_everySixHours">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="daily" id="_daily">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>daily(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run daily.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run daily.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_daily">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="at" id="_at">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>at(<span>string <var>$time</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the command at a given time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the command at a given time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_at">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="dailyAt" id="_dailyAt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>dailyAt(<span>string <var>$time</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run daily at a given time (10:00, 19:30, etc).
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run daily at a given time (10:00, 19:30, etc).</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_dailyAt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="twiceDaily" id="_twiceDaily">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>twiceDaily(<span>int <var>$first</var> = <span class="php-num">1</span></span>, <span>int <var>$second</var> = <span class="php-num">13</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run twice daily.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run twice daily.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_twiceDaily">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="twiceDailyAt" id="_twiceDailyAt">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>twiceDailyAt(<span>int <var>$first</var> = <span class="php-num">1</span></span>, <span>int <var>$second</var> = <span class="php-num">13</span></span>, <span>int <var>$offset</var> = <span class="php-num">0</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run twice daily at a given offset.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run twice daily at a given offset.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_twiceDailyAt">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="weekdays" id="_weekdays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>weekdays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on weekdays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on weekdays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_weekdays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="weekends" id="_weekends">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>weekends(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on weekends.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on weekends.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_weekends">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="mondays" id="_mondays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>mondays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Mondays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Mondays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_mondays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="tuesdays" id="_tuesdays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>tuesdays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Tuesdays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Tuesdays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_tuesdays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="wednesdays" id="_wednesdays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>wednesdays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Wednesdays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Wednesdays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_wednesdays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="thursdays" id="_thursdays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>thursdays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Thursdays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Thursdays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_thursdays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="fridays" id="_fridays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>fridays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Fridays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Fridays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_fridays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="saturdays" id="_saturdays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>saturdays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Saturdays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Saturdays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_saturdays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sundays" id="_sundays">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>sundays(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run only on Sundays.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run only on Sundays.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sundays">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="weekly" id="_weekly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>weekly(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run weekly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run weekly.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_weekly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="weeklyOn" id="_weeklyOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>weeklyOn(<span>array|mixed <var>$dayOfWeek</var></span>, <span>string <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run weekly on a given day and time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run weekly on a given day and time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_weeklyOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="monthly" id="_monthly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>monthly(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run monthly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run monthly.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_monthly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="monthlyOn" id="_monthlyOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>monthlyOn(<span>int <var>$dayOfMonth</var> = <span class="php-num">1</span></span>, <span>string <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run monthly on a given day and time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run monthly on a given day and time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_monthlyOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="twiceMonthly" id="_twiceMonthly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>twiceMonthly(<span>int <var>$first</var> = <span class="php-num">1</span></span>, <span>int <var>$second</var> = <span class="php-num">16</span></span>, <span>string <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run twice monthly at a given time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run twice monthly at a given time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_twiceMonthly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="lastDayOfMonth" id="_lastDayOfMonth">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>lastDayOfMonth(<span>string <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run on the last day of the month.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run on the last day of the month.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_lastDayOfMonth">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="quarterly" id="_quarterly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>quarterly(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run quarterly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run quarterly.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_quarterly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="quarterlyOn" id="_quarterlyOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>quarterlyOn(<span>int <var>$dayOfQuarter</var> = <span class="php-num">1</span></span>, <span>int <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run quarterly on a given day and time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run quarterly on a given day and time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_quarterlyOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="yearly" id="_yearly">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>yearly(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run yearly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run yearly.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_yearly">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="yearlyOn" id="_yearlyOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>yearlyOn(<span>int <var>$month</var> = <span class="php-num">1</span></span>, <span>int|string <var>$dayOfMonth</var> = <span class="php-num">1</span></span>, <span>string <var>$time</var> = <span class="php-str">'0:0'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Schedule the event to run yearly on a given month, day, and time.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Schedule the event to run yearly on a given month, day, and time.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_yearlyOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="days" id="_days">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>days(<span>array|mixed <var>$days</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the days of the week the command should run on.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the days of the week the command should run on.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_days">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="timezone" id="_timezone">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>timezone(<span><a href="DateTimeZone.html"><span title="DateTimeZone">DateTimeZone</span></a>|string <var>$timezone</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the timezone the date should be evaluated on.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the timezone the date should be evaluated on.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_timezone">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="spliceIntoPosition" id="_spliceIntoPosition">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>spliceIntoPosition(<span>int <var>$position</var></span>, <span>string <var>$value</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Splice the given value into the given position of the expression.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Splice the given value into the given position of the expression.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_spliceIntoPosition">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,568 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Dotenv\Dotenv |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Dotenv.html">Dotenv</a>
+	<ul>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Dotenv.Dotenv.html">
+							Dotenv
+						</a>
+					</li>
+					<li>
+						<a href="Dotenv.Validator.html">
+							Validator
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Dotenv.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Dotenv.Dotenv.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Dotenv.html">Dotenv</a>\<a href="Dotenv.Dotenv.html">Dotenv</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(
+	<span><a href="Dotenv.Store.StoreInterface.html"><span title="Dotenv\Store\StoreInterface">StoreInterface</span></a> <var>$store</var></span>,
+	<span><a href="Dotenv.Parser.ParserInterface.html"><span title="Dotenv\Parser\ParserInterface">ParserInterface</span></a> <var>$parser</var></span>,
+	<span><a href="Dotenv.Loader.LoaderInterface.html"><span title="Dotenv\Loader\LoaderInterface">LoaderInterface</span></a> <var>$loader</var></span>,
+	<span><a href="Dotenv.Repository.RepositoryInterface.html"><span title="Dotenv\Repository\RepositoryInterface">RepositoryInterface</span></a> <var>$repository</var></span>,
+): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new dotenv instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new dotenv instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="create" id="_create">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>create(
+	<span><a href="Dotenv.Repository.RepositoryInterface.html"><span title="Dotenv\Repository\RepositoryInterface">RepositoryInterface</span></a> <var>$repository</var></span>,
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new dotenv instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new dotenv instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_create">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createMutable" id="_createMutable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createMutable(
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new mutable dotenv instance with default repository.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new mutable dotenv instance with default repository.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createMutable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createUnsafeMutable" id="_createUnsafeMutable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createUnsafeMutable(
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new mutable dotenv instance with default repository with the putenv adapter.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new mutable dotenv instance with default repository with the putenv adapter.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createUnsafeMutable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createImmutable" id="_createImmutable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createImmutable(
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new immutable dotenv instance with default repository.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new immutable dotenv instance with default repository.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createImmutable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createUnsafeImmutable" id="_createUnsafeImmutable">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createUnsafeImmutable(
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new immutable dotenv instance with default repository with the putenv adapter.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new immutable dotenv instance with default repository with the putenv adapter.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createUnsafeImmutable">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createArrayBacked" id="_createArrayBacked">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>createArrayBacked(
+	<span>string|string[] <var>$paths</var></span>,
+	<span>string|string[]|null <var>$names</var> = <span class="php-kw">null</span></span>,
+	<span>bool <var>$shortCircuit</var> = <span class="php-kw">true</span></span>,
+	<span>string|null <var>$fileEncoding</var> = <span class="php-kw">null</span></span>,
+): <b><span class="active" title="Dotenv\Dotenv">Dotenv</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new dotenv instance with an array backed repository.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new dotenv instance with an array backed repository.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createArrayBacked">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="parse" id="_parse">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>parse(<span>string <var>$content</var></span>): array&lt;string, string|null&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Parse the given content and resolve nested variables.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Parse the given content and resolve nested variables.</p>
+<p>This method behaves just like load(), only without mutating your actual
+environment. We do this by using an array backed repository.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Dotenv.Exception.InvalidFileException.html"><span>Dotenv\Exception\InvalidFileException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_parse">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="load" id="_load">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>load(): array&lt;string, string|null&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Read and load environment file(s).
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Read and load environment file(s).</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Dotenv.Exception.InvalidPathException.html"><span>Dotenv\Exception\InvalidPathException</span></a>|<a href="Dotenv.Exception.InvalidEncodingException.html"><span>Dotenv\Exception\InvalidEncodingException</span></a>|<a href="Dotenv.Exception.InvalidFileException.html"><span>Dotenv\Exception\InvalidFileException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_load">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="safeLoad" id="_safeLoad">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>safeLoad(): array&lt;string, string|null&gt;</code>
+
+
+	<div class="expandable-collapsedView">
+		Read and load environment file(s), silently failing if no files can be read.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Read and load environment file(s), silently failing if no files can be read.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Dotenv.Exception.InvalidEncodingException.html"><span>Dotenv\Exception\InvalidEncodingException</span></a>|<a href="Dotenv.Exception.InvalidFileException.html"><span>Dotenv\Exception\InvalidFileException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_safeLoad">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="required" id="_required">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>required(<span>string|string[] <var>$variables</var></span>): <a href="Dotenv.Validator.html"><span title="Dotenv\Validator">Validator</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Required ensures that the specified variables exist, and returns a new validator object.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Required ensures that the specified variables exist, and returns a new validator object.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_required">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="ifPresent" id="_ifPresent">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>ifPresent(<span>string|string[] <var>$variables</var></span>): <a href="Dotenv.Validator.html"><span title="Dotenv\Validator">Validator</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a new validator object that won't check if the specified variables exist.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a new validator object that won't check if the specified variables exist.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_ifPresent">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

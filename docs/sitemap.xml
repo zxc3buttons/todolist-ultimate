@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url><loc>index.html</loc></url>
+
+		<url><loc>tree.html</loc></url>
+
+			<url><loc>namespace-App.html</loc></url>
+			<url><loc>namespace-App.Console.html</loc></url>
+			<url><loc>namespace-App.Exceptions.html</loc></url>
+			<url><loc>namespace-App.Http.html</loc></url>
+			<url><loc>namespace-App.Http.Controllers.html</loc></url>
+			<url><loc>namespace-App.Http.Middleware.html</loc></url>
+			<url><loc>namespace-App.Http.Services.html</loc></url>
+			<url><loc>namespace-App.Http.Services.interfaces.html</loc></url>
+			<url><loc>namespace-App.Models.html</loc></url>
+			<url><loc>namespace-App.Providers.html</loc></url>
+
+			<url><loc>App.Console.Kernel.html</loc></url>
+			<url><loc>App.Exceptions.Handler.html</loc></url>
+			<url><loc>App.Http.Controllers.Controller.html</loc></url>
+			<url><loc>App.Http.Kernel.html</loc></url>
+			<url><loc>App.Http.Middleware.Authenticate.html</loc></url>
+			<url><loc>App.Http.Middleware.EncryptCookies.html</loc></url>
+			<url><loc>App.Http.Middleware.PreventRequestsDuringMaintenance.html</loc></url>
+			<url><loc>App.Http.Middleware.RedirectIfAuthenticated.html</loc></url>
+			<url><loc>App.Http.Middleware.TrimStrings.html</loc></url>
+			<url><loc>App.Http.Middleware.TrustHosts.html</loc></url>
+			<url><loc>App.Http.Middleware.TrustProxies.html</loc></url>
+			<url><loc>App.Http.Middleware.ValidateSignature.html</loc></url>
+			<url><loc>App.Http.Middleware.VerifyCsrfToken.html</loc></url>
+			<url><loc>App.Http.Services.interfaces.TaskService.html</loc></url>
+			<url><loc>App.Models.Report.html</loc></url>
+			<url><loc>App.Models.Task.html</loc></url>
+			<url><loc>App.Models.User.html</loc></url>
+			<url><loc>App.Providers.AppServiceProvider.html</loc></url>
+			<url><loc>App.Providers.AuthServiceProvider.html</loc></url>
+			<url><loc>App.Providers.BroadcastServiceProvider.html</loc></url>
+			<url><loc>App.Providers.EventServiceProvider.html</loc></url>
+			<url><loc>App.Providers.RouteServiceProvider.html</loc></url>
+
+
+			<url><loc>source-Console.Kernel.html</loc></url>
+			<url><loc>source-Exceptions.Handler.html</loc></url>
+			<url><loc>source-Http.Controllers.Controller.html</loc></url>
+			<url><loc>source-Http.Kernel.html</loc></url>
+			<url><loc>source-Http.Middleware.Authenticate.html</loc></url>
+			<url><loc>source-Http.Middleware.EncryptCookies.html</loc></url>
+			<url><loc>source-Http.Middleware.PreventRequestsDuringMaintenance.html</loc></url>
+			<url><loc>source-Http.Middleware.RedirectIfAuthenticated.html</loc></url>
+			<url><loc>source-Http.Middleware.TrimStrings.html</loc></url>
+			<url><loc>source-Http.Middleware.TrustHosts.html</loc></url>
+			<url><loc>source-Http.Middleware.TrustProxies.html</loc></url>
+			<url><loc>source-Http.Middleware.ValidateSignature.html</loc></url>
+			<url><loc>source-Http.Middleware.VerifyCsrfToken.html</loc></url>
+			<url><loc>source-Http.Services.interfaces.TaskService.html</loc></url>
+			<url><loc>source-Models.Report.html</loc></url>
+			<url><loc>source-Models.Task.html</loc></url>
+			<url><loc>source-Models.User.html</loc></url>
+			<url><loc>source-Providers.AppServiceProvider.html</loc></url>
+			<url><loc>source-Providers.AuthServiceProvider.html</loc></url>
+			<url><loc>source-Providers.BroadcastServiceProvider.html</loc></url>
+			<url><loc>source-Providers.EventServiceProvider.html</loc></url>
+			<url><loc>source-Providers.RouteServiceProvider.html</loc></url>
+</urlset>

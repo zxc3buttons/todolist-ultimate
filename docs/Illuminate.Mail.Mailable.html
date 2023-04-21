@@ -1,0 +1,3235 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Mail\Mailable |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Mail.html">Mail</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Mail.Attachment.html">
+							Attachment
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Mail.Mailable.html">
+							Mailable
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.Markdown.html">
+							Markdown
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.Message.html">
+							Message
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.PendingMail.html">
+							PendingMail
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Mail.SentMessage.html">
+							SentMessage
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Mail.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Mail.Mailable.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Mail.html">Mail</a>\<a href="Illuminate.Mail.Mailable.html">Mailable</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>implements</code></th>
+			<td>
+<code><a href="Illuminate.Contracts.Mail.Mailable.html"><span title="Illuminate\Contracts\Mail\Mailable">Mailable</span></a>, <a href="Illuminate.Contracts.Support.Renderable.html"><span title="Illuminate\Contracts\Support\Renderable">Renderable</span></a></code>			</td>
+		</tr>
+		<tr>
+			<th><code>uses</code></th>
+			<td>
+<code><a href="Illuminate.Support.Traits.Conditionable.html"><span title="Illuminate\Support\Traits\Conditionable">Conditionable</span></a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html"><span title="Illuminate\Support\Traits\ForwardsCalls">ForwardsCalls</span></a>, <a href="Illuminate.Support.Traits.Localizable.html"><span title="Illuminate\Support\Traits\Localizable">Localizable</span></a>, <a href="Illuminate.Support.Traits.Macroable.html"><span title="Illuminate\Support\Traits\Macroable">Macroable</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="send" id="_send">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>send(<span><a href="Illuminate.Contracts.Mail.Factory.html"><span title="Illuminate\Contracts\Mail\Factory">Factory</span></a>|<a href="Illuminate.Contracts.Mail.Mailer.html"><span title="Illuminate\Contracts\Mail\Mailer">Mailer</span></a> <var>$mailer</var></span>): <a href="Illuminate.Mail.SentMessage.html"><span title="Illuminate\Mail\SentMessage">SentMessage</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Send the message using the given mailer.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Send the message using the given mailer.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_send">						<code>Illuminate\Contracts\Mail\Mailable::send()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_send">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="queue" id="_queue">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>queue(<span><a href="Illuminate.Contracts.Queue.Factory.html"><span title="Illuminate\Contracts\Queue\Factory">Factory</span></a> <var>$queue</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Queue the message for sending.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Queue the message for sending.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_queue">						<code>Illuminate\Contracts\Mail\Mailable::queue()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_queue">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="later" id="_later">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>later(<span><a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|<a href="DateInterval.html"><span title="DateInterval">DateInterval</span></a>|int <var>$delay</var></span>, <span><a href="Illuminate.Contracts.Queue.Factory.html"><span title="Illuminate\Contracts\Queue\Factory">Factory</span></a> <var>$queue</var></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Deliver the queued message after (n) seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Deliver the queued message after (n) seconds.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_later">						<code>Illuminate\Contracts\Mail\Mailable::later()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_later">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="newQueuedJob" id="_newQueuedJob">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>newQueuedJob(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Make the queued mailable job instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Make the queued mailable job instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_newQueuedJob">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="render" id="_render">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>render(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Render the mailable into a view.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render the mailable into a view.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Support.Renderable.html#_render">						<code>Illuminate\Contracts\Support\Renderable::render()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_render">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildView" id="_buildView">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildView(): array|string</code>
+
+
+	<div class="expandable-collapsedView">
+		Build the view for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Build the view for the message.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildView">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildMarkdownView" id="_buildMarkdownView">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildMarkdownView(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Build the Markdown view for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Build the Markdown view for the message.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildMarkdownView">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildViewData" id="_buildViewData">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildViewData(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Build the view data for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Build the view data for the message.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildViewData">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildMarkdownText" id="_buildMarkdownText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildMarkdownText(<span><a href="Illuminate.Mail.Markdown.html"><span title="Illuminate\Mail\Markdown">Markdown</span></a> <var>$markdown</var></span>, <span>array <var>$data</var></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Build the text view for a Markdown message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Build the text view for a Markdown message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildMarkdownText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildFrom" id="_buildFrom">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildFrom(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add the sender to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add the sender to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildFrom">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildRecipients" id="_buildRecipients">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildRecipients(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add all of the recipients to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add all of the recipients to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildRecipients">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildSubject" id="_buildSubject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildSubject(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the subject for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the subject for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildSubject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildAttachments" id="_buildAttachments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildAttachments(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add all of the attachments to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add all of the attachments to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildAttachments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildDiskAttachments" id="_buildDiskAttachments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildDiskAttachments(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Add all of the disk attachments to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add all of the disk attachments to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildDiskAttachments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildTags" id="_buildTags">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildTags(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add all defined tags to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add all defined tags to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildTags">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildMetadata" id="_buildMetadata">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildMetadata(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add all defined metadata to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add all defined metadata to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildMetadata">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="runCallbacks" id="_runCallbacks">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>runCallbacks(<span><a href="Illuminate.Mail.Message.html"><span title="Illuminate\Mail\Message">Message</span></a> <var>$message</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Run the callbacks for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Run the callbacks for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_runCallbacks">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="locale" id="_locale">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>locale(<span>string <var>$locale</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the locale of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the locale of the message.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_locale">						<code>Illuminate\Contracts\Mail\Mailable::locale()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_locale">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="priority" id="_priority">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>priority(<span>int <var>$level</var> = <span class="php-num">3</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the priority of this message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the priority of this message.</p>
+<p>The value is an integer where 1 is the highest priority and 5 is the lowest.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_priority">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="from" id="_from">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>from(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the sender of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the sender of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_from">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasFrom" id="_hasFrom">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasFrom(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given recipient is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given recipient is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasFrom">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="to" id="_to">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>to(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_to">						<code>Illuminate\Contracts\Mail\Mailable::to()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_to">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasTo" id="_hasTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given recipient is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given recipient is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cc" id="_cc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>cc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_cc">						<code>Illuminate\Contracts\Mail\Mailable::cc()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_cc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasCc" id="_hasCc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasCc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given recipient is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given recipient is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasCc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bcc" id="_bcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bcc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_bcc">						<code>Illuminate\Contracts\Mail\Mailable::bcc()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bcc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasBcc" id="_hasBcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasBcc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given recipient is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given recipient is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasBcc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="replyTo" id="_replyTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>replyTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the "reply to" address of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the &quot;reply to&quot; address of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_replyTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasReplyTo" id="_hasReplyTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasReplyTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given replyTo is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given replyTo is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasReplyTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setAddress" id="_setAddress">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setAddress(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>string <var>$property</var> = <span class="php-str">'to'</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the recipients of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the recipients of the message.</p>
+<p>All recipients are stored internally as [['name' =&gt; ?, 'address' =&gt; ?]]</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setAddress">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="addressesToArray" id="_addressesToArray">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>addressesToArray(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Convert the given recipient arguments to an array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert the given recipient arguments to an array.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_addressesToArray">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="normalizeRecipient" id="_normalizeRecipient">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>normalizeRecipient(<span>mixed <var>$recipient</var></span>): object</code>
+
+
+	<div class="expandable-collapsedView">
+		Convert the given recipient into an object.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert the given recipient into an object.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_normalizeRecipient">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasRecipient" id="_hasRecipient">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasRecipient(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>string <var>$property</var> = <span class="php-str">'to'</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the given recipient is set on the mailable.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the given recipient is set on the mailable.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasRecipient">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="subject" id="_subject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>subject(<span>string <var>$subject</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the subject of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the subject of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_subject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasSubject" id="_hasSubject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasSubject(<span>string <var>$subject</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given subject.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given subject.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasSubject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="markdown" id="_markdown">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>markdown(<span>string <var>$view</var></span>, <span>array <var>$data</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the Markdown template for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the Markdown template for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_markdown">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="view" id="_view">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>view(<span>string <var>$view</var></span>, <span>array <var>$data</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the view and view data for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the view and view data for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_view">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="html" id="_html">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>html(<span>string <var>$html</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the rendered HTML content for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the rendered HTML content for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_html">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="text" id="_text">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>text(<span>string <var>$textView</var></span>, <span>array <var>$data</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the plain text view for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the plain text view for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_text">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="with" id="_with">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>with(<span>string|array <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the view data for the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the view data for the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_with">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attach" id="_attach">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attach(<span>string|<a href="Illuminate.Contracts.Mail.Attachable.html"><span title="Illuminate\Contracts\Mail\Attachable">Attachable</span></a>|<a href="Illuminate.Mail.Attachment.html"><span title="Illuminate\Mail\Attachment">Attachment</span></a> <var>$file</var></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Attach a file to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attach a file to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attach">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attachMany" id="_attachMany">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attachMany(<span>array <var>$files</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Attach multiple files to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attach multiple files to the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attachMany">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasAttachment" id="_hasAttachment">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasAttachment(<span>string|<a href="Illuminate.Contracts.Mail.Attachable.html"><span title="Illuminate\Contracts\Mail\Attachable">Attachable</span></a>|<a href="Illuminate.Mail.Attachment.html"><span title="Illuminate\Mail\Attachment">Attachment</span></a> <var>$file</var></span>, <span>array <var>$options</var> = []</span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given attachment.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given attachment.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasAttachment">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attachFromStorage" id="_attachFromStorage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attachFromStorage(<span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Attach a file to the message from storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attach a file to the message from storage.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attachFromStorage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attachFromStorageDisk" id="_attachFromStorageDisk">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attachFromStorageDisk(<span>string <var>$disk</var></span>, <span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Attach a file to the message from storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attach a file to the message from storage.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attachFromStorageDisk">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasAttachmentFromStorage" id="_hasAttachmentFromStorage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasAttachmentFromStorage(<span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given attachment from storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given attachment from storage.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasAttachmentFromStorage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasAttachmentFromStorageDisk" id="_hasAttachmentFromStorageDisk">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasAttachmentFromStorageDisk(<span>string <var>$disk</var></span>, <span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given attachment from a specific storage disk.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given attachment from a specific storage disk.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasAttachmentFromStorageDisk">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attachData" id="_attachData">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>attachData(<span>string <var>$data</var></span>, <span>string <var>$name</var></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Attach in-memory data as an attachment.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Attach in-memory data as an attachment.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_attachData">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasAttachedData" id="_hasAttachedData">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasAttachedData(<span>string <var>$data</var></span>, <span>string <var>$name</var></span>, <span>array <var>$options</var> = []</span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given data as an attachment.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given data as an attachment.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasAttachedData">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="tag" id="_tag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>tag(<span>string <var>$value</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a tag header to the message when supported by the underlying transport.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a tag header to the message when supported by the underlying transport.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_tag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasTag" id="_hasTag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasTag(<span>string <var>$value</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given tag.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given tag.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasTag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="metadata" id="_metadata">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>metadata(<span>string <var>$key</var></span>, <span>string <var>$value</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Add a metadata header to the message when supported by the underlying transport.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Add a metadata header to the message when supported by the underlying transport.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_metadata">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="hasMetadata" id="_hasMetadata">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>hasMetadata(<span>string <var>$key</var></span>, <span>string <var>$value</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the mailable has the given metadata.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the mailable has the given metadata.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_hasMetadata">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertFrom" id="_assertFrom">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertFrom(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable is from the given address.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable is from the given address.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertFrom">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertTo" id="_assertTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given recipient.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given recipient.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasTo" id="_assertHasTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given recipient.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given recipient.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasCc" id="_assertHasCc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasCc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given recipient.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given recipient.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasCc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasBcc" id="_assertHasBcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasBcc(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given recipient.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given recipient.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasBcc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasReplyTo" id="_assertHasReplyTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasReplyTo(<span>object|array|string <var>$address</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given "reply to" address.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given &quot;reply to&quot; address.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasReplyTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasSubject" id="_assertHasSubject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasSubject(<span>string <var>$subject</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given subject.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given subject.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasSubject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertSeeInHtml" id="_assertSeeInHtml">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertSeeInHtml(<span>string <var>$string</var></span>, <span>bool <var>$escape</var> = <span class="php-kw">true</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text is present in the HTML email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text is present in the HTML email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertSeeInHtml">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertDontSeeInHtml" id="_assertDontSeeInHtml">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertDontSeeInHtml(<span>string <var>$string</var></span>, <span>bool <var>$escape</var> = <span class="php-kw">true</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text is not present in the HTML email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text is not present in the HTML email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertDontSeeInHtml">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertSeeInOrderInHtml" id="_assertSeeInOrderInHtml">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertSeeInOrderInHtml(<span>array <var>$strings</var></span>, <span>bool <var>$escape</var> = <span class="php-kw">true</span></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text strings are present in order in the HTML email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text strings are present in order in the HTML email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertSeeInOrderInHtml">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertSeeInText" id="_assertSeeInText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertSeeInText(<span>string <var>$string</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text is present in the plain-text email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text is present in the plain-text email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertSeeInText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertDontSeeInText" id="_assertDontSeeInText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertDontSeeInText(<span>string <var>$string</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text is not present in the plain-text email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text is not present in the plain-text email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertDontSeeInText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertSeeInOrderInText" id="_assertSeeInOrderInText">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertSeeInOrderInText(<span>array <var>$strings</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the given text strings are present in order in the plain-text email body.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the given text strings are present in order in the plain-text email body.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertSeeInOrderInText">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasAttachment" id="_assertHasAttachment">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasAttachment(<span>string|<a href="Illuminate.Contracts.Mail.Attachable.html"><span title="Illuminate\Contracts\Mail\Attachable">Attachable</span></a>|<a href="Illuminate.Mail.Attachment.html"><span title="Illuminate\Mail\Attachment">Attachment</span></a> <var>$file</var></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert the mailable has the given attachment.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert the mailable has the given attachment.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasAttachment">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasAttachedData" id="_assertHasAttachedData">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasAttachedData(<span>string <var>$data</var></span>, <span>string <var>$name</var></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert the mailable has the given data as an attachment.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert the mailable has the given data as an attachment.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasAttachedData">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasAttachmentFromStorage" id="_assertHasAttachmentFromStorage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasAttachmentFromStorage(<span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert the mailable has the given attachment from storage.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert the mailable has the given attachment from storage.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasAttachmentFromStorage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasAttachmentFromStorageDisk" id="_assertHasAttachmentFromStorageDisk">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasAttachmentFromStorageDisk(<span>string <var>$disk</var></span>, <span>string <var>$path</var></span>, <span>string|null <var>$name</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert the mailable has the given attachment from a specific storage disk.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert the mailable has the given attachment from a specific storage disk.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasAttachmentFromStorageDisk">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasTag" id="_assertHasTag">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasTag(<span>string <var>$tag</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given tag.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given tag.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasTag">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertHasMetadata" id="_assertHasMetadata">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>assertHasMetadata(<span>string <var>$key</var></span>, <span>string <var>$value</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Assert that the mailable has the given metadata.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assert that the mailable has the given metadata.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assertHasMetadata">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="renderForAssertions" id="_renderForAssertions">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>renderForAssertions(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Render the HTML and plain-text version of the mailable into views for assertions.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Render the HTML and plain-text version of the mailable into views for assertions.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="ReflectionException.html"><span>ReflectionException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_renderForAssertions">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="mailer" id="_mailer">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>mailer(<span>string <var>$mailer</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the name of the mailer that should send the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the name of the mailer that should send the message.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Mail.Mailable.html#_mailer">						<code>Illuminate\Contracts\Mail\Mailable::mailer()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_mailer">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="withSymfonyMessage" id="_withSymfonyMessage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>withSymfonyMessage(<span>callable <var>$callback</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a callback to be called with the Symfony message instance.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a callback to be called with the Symfony message instance.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_withSymfonyMessage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="buildViewDataUsing" id="_buildViewDataUsing">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>buildViewDataUsing(<span>callable <var>$callback</var></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Register a callback to be called while building the view data.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Register a callback to be called while building the view data.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_buildViewDataUsing">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__call" id="___call">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__call(<span>string <var>$method</var></span>, <span>array <var>$parameters</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Dynamically bind parameters to the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Dynamically bind parameters to the message.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="BadMethodCallException.html"><span>BadMethodCallException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___call">#</a>
+		</td>
+	</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Conditionable.html"><span>Illuminate\Support\Traits\Conditionable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Conditionable.html#_when">when()</a>, <a href="Illuminate.Support.Traits.Conditionable.html#_unless">unless()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.ForwardsCalls.html"><span>Illuminate\Support\Traits\ForwardsCalls</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.ForwardsCalls.html#_forwardCallTo">forwardCallTo()</a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html#_forwardDecoratedCallTo">forwardDecoratedCallTo()</a>, <a href="Illuminate.Support.Traits.ForwardsCalls.html#_throwBadMethodCallException">throwBadMethodCallException()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Localizable.html"><span>Illuminate\Support\Traits\Localizable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Localizable.html#_withLocale">withLocale()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Illuminate.Support.Traits.Macroable.html#_macro">macro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_mixin">mixin()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_hasMacro">hasMacro()</a>, <a href="Illuminate.Support.Traits.Macroable.html#_flushMacros">flushMacros()</a>, <a href="Illuminate.Support.Traits.Macroable.html#___callStatic">__callStatic()</a>, </code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="locale" id="$locale">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$locale</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$locale">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="from" id="$from">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$from</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$from">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="to" id="$to">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$to</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$to">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="cc" id="$cc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$cc</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$cc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bcc" id="$bcc">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$bcc</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$bcc">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="replyTo" id="$replyTo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$replyTo</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$replyTo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="subject" id="$subject">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$subject</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$subject">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="markdown" id="$markdown">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$markdown</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$markdown">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="html" id="$html">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$html</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$html">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="view" id="$view">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$view</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$view">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="textView" id="$textView">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$textView</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$textView">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="viewData" id="$viewData">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$viewData</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$viewData">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="attachments" id="$attachments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$attachments</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$attachments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="rawAttachments" id="$rawAttachments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$rawAttachments</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$rawAttachments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="diskAttachments" id="$diskAttachments">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$diskAttachments</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$diskAttachments">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="tags" id="$tags">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$tags</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$tags">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="metadata" id="$metadata">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$metadata</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$metadata">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="callbacks" id="$callbacks">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$callbacks</var> = []</code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$callbacks">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="theme" id="$theme">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$theme</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$theme">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="mailer" id="$mailer">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$mailer</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$mailer">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assertionableRenderStrings" id="$assertionableRenderStrings">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">array</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$assertionableRenderStrings</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$assertionableRenderStrings">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="viewDataCallback" id="$viewDataCallback">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">callable</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$viewDataCallback</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$viewDataCallback">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Properties used from <a href="Illuminate.Support.Traits.Macroable.html"><span>Illuminate\Support\Traits\Macroable</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><var><a href="Illuminate.Support.Traits.Macroable.html#$macros">$macros</a></var></code>				</td>
+			</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

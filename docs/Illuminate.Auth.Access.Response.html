@@ -1,0 +1,735 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Class Illuminate\Auth\Access\Response |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Auth.html">Auth</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Auth.Access.html">Access</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Illuminate.Auth.Access.Response.html">
+							Response
+						</a>
+					</li>
+			</ul>
+		</div>
+		<div class="menu-section">
+			<h3>Exceptions</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Auth.Access.AuthorizationException.html">
+							AuthorizationException
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Auth.Access.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Auth.Access.Response.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Auth.html">Auth</a>\<a href="namespace-Illuminate.Auth.Access.html">Access</a>\<a href="Illuminate.Auth.Access.Response.html">Response</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>implements</code></th>
+			<td>
+<code><a href="Illuminate.Contracts.Support.Arrayable.html"><span title="Illuminate\Contracts\Support\Arrayable">Arrayable</span></a></code>			</td>
+		</tr>
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="__construct" id="___construct">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__construct(<span>bool <var>$allowed</var></span>, <span>string <var>$message</var> = <span class="php-str">''</span></span>, <span>mixed <var>$code</var> = <span class="php-kw">null</span></span>): void</code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___construct">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="allow" id="_allow">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>allow(<span>string|null <var>$message</var> = <span class="php-kw">null</span></span>, <span>mixed <var>$code</var> = <span class="php-kw">null</span></span>): <b><span class="active" title="Illuminate\Auth\Access\Response">Response</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new "allow" Response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new &quot;allow&quot; Response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_allow">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="deny" id="_deny">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>deny(<span>string|null <var>$message</var> = <span class="php-kw">null</span></span>, <span>mixed <var>$code</var> = <span class="php-kw">null</span></span>): <b><span class="active" title="Illuminate\Auth\Access\Response">Response</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new "deny" Response.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new &quot;deny&quot; Response.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_deny">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="denyWithStatus" id="_denyWithStatus">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>denyWithStatus(<span>int <var>$status</var></span>, <span>string|null <var>$message</var> = <span class="php-kw">null</span></span>, <span>mixed <var>$code</var> = <span class="php-kw">null</span></span>): <b><span class="active" title="Illuminate\Auth\Access\Response">Response</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new "deny" Response with a HTTP status code.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new &quot;deny&quot; Response with a HTTP status code.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_denyWithStatus">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="denyAsNotFound" id="_denyAsNotFound">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>denyAsNotFound(<span>string|null <var>$message</var> = <span class="php-kw">null</span></span>, <span>mixed <var>$code</var> = <span class="php-kw">null</span></span>): <b><span class="active" title="Illuminate\Auth\Access\Response">Response</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Create a new "deny" Response with a 404 HTTP status code.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Create a new &quot;deny&quot; Response with a 404 HTTP status code.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_denyAsNotFound">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="allowed" id="_allowed">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>allowed(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the response was allowed.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the response was allowed.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_allowed">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="denied" id="_denied">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>denied(): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Determine if the response was denied.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Determine if the response was denied.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_denied">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="message" id="_message">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>message(): string|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the response message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the response message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_message">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="code" id="_code">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>code(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the response code / reason.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the response code / reason.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_code">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="authorize" id="_authorize">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>authorize(): <b><span class="active" title="Illuminate\Auth\Access\Response">Response</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Throw authorization exception if response was denied.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Throw authorization exception if response was denied.</p>
+</div>
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><a href="Illuminate.Auth.Access.AuthorizationException.html"><span>Illuminate\Auth\Access\AuthorizationException</span></a></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_authorize">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="withStatus" id="_withStatus">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>withStatus(<span>null|int <var>$status</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the HTTP response status code.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the HTTP response status code.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_withStatus">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="asNotFound" id="_asNotFound">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>asNotFound(): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the HTTP response status code to 404.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the HTTP response status code to 404.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_asNotFound">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="status" id="_status">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>status(): int|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the HTTP status code.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the HTTP status code.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_status">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="toArray" id="_toArray">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>toArray(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Convert the response to an array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Convert the response to an array.</p>
+</div>
+
+
+
+
+		<h4>Implements</h4>
+		<ul>
+				<li>
+<a href="Illuminate.Contracts.Support.Arrayable.html#_toArray">						<code>Illuminate\Contracts\Support\Arrayable::toArray()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_toArray">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="__toString" id="___toString">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>__toString(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the string representation of the message.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the string representation of the message.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#___toString">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+
+		<table class="table" id="properties">
+			<tr>
+				<th class="table-heading sortable" colspan="4" title="Switch between natural and alphabetical order">Properties</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="allowed" id="$allowed">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">bool</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$allowed</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$allowed">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="message" id="$message">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">string|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$message</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$message">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="code" id="$code">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">mixed</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$code</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$code">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="status" id="$status">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+	protected
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell table-shrink">
+				<code class="nowrap">int|null</code>
+			</td>
+
+			<td class="table-cell">
+<code><var>$status</var></code>
+				
+
+	<div class="expandable-expandedView">
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#$status">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

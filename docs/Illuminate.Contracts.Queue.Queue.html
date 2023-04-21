@@ -1,0 +1,463 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="noindex">
+	<title>Interface Illuminate\Contracts\Queue\Queue |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.html">App</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Console.html">Console</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Exceptions.html">Exceptions</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Http.html">Http</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Models.html">Models</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-App.Providers.html">Providers</a>
+			</li>
+	</ul>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.html">Illuminate</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Contracts.html">Contracts</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Illuminate.Contracts.Queue.html">Queue</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Interfaces</h3>
+			<ul>
+					<li>
+						<a href="Illuminate.Contracts.Queue.Factory.html">
+							Factory
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Contracts.Queue.Job.html">
+							Job
+						</a>
+					</li>
+					<li class="active">
+						<a href="Illuminate.Contracts.Queue.Queue.html">
+							Queue
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Contracts.Queue.QueueableCollection.html">
+							QueueableCollection
+						</a>
+					</li>
+					<li>
+						<a href="Illuminate.Contracts.Queue.QueueableEntity.html">
+							QueueableEntity
+						</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Illuminate.Contracts.Queue.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Illuminate.Contracts.Queue.Queue.html">Interface</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Interface <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Contracts.html">Contracts</a>\<a href="namespace-Illuminate.Contracts.Queue.html">Queue</a>\<a href="Illuminate.Contracts.Queue.Queue.html">Queue</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+	</table>
+
+
+		<div class="classLikeSection">
+
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="size" id="_size">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>size(<span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>): int</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the size of the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the size of the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_size">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="push" id="_push">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>push(<span>string|object <var>$job</var></span>, <span>mixed <var>$data</var> = <span class="php-str">''</span></span>, <span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push a new job onto the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push a new job onto the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_push">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pushOn" id="_pushOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pushOn(<span>string <var>$queue</var></span>, <span>string|object <var>$job</var></span>, <span>mixed <var>$data</var> = <span class="php-str">''</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push a new job onto the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push a new job onto the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pushOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pushRaw" id="_pushRaw">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pushRaw(<span>string <var>$payload</var></span>, <span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>, <span>array <var>$options</var> = []</span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push a raw payload onto the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push a raw payload onto the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pushRaw">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="later" id="_later">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>later(<span><a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|<a href="DateInterval.html"><span title="DateInterval">DateInterval</span></a>|int <var>$delay</var></span>, <span>string|object <var>$job</var></span>, <span>mixed <var>$data</var> = <span class="php-str">''</span></span>, <span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push a new job onto the queue after (n) seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push a new job onto the queue after (n) seconds.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_later">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="laterOn" id="_laterOn">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>laterOn(<span>string <var>$queue</var></span>, <span><a href="DateTimeInterface.html"><span title="DateTimeInterface">DateTimeInterface</span></a>|<a href="DateInterval.html"><span title="DateInterval">DateInterval</span></a>|int <var>$delay</var></span>, <span>string|object <var>$job</var></span>, <span>mixed <var>$data</var> = <span class="php-str">''</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push a new job onto a specific queue after (n) seconds.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push a new job onto a specific queue after (n) seconds.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_laterOn">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="bulk" id="_bulk">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>bulk(<span>array <var>$jobs</var></span>, <span>mixed <var>$data</var> = <span class="php-str">''</span></span>, <span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Push an array of jobs onto the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Push an array of jobs onto the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_bulk">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="pop" id="_pop">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>pop(<span>string|null <var>$queue</var> = <span class="php-kw">null</span></span>): <a href="Illuminate.Contracts.Queue.Job.html"><span title="Illuminate\Contracts\Queue\Job">Job</span></a>|null</code>
+
+
+	<div class="expandable-collapsedView">
+		Pop the next job off of the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Pop the next job off of the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_pop">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getConnectionName" id="_getConnectionName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>getConnectionName(): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Get the connection name for the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Get the connection name for the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getConnectionName">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setConnectionName" id="_setConnectionName">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code>setConnectionName(<span>string <var>$name</var></span>): $this</code>
+
+
+	<div class="expandable-collapsedView">
+		Set the connection name for the queue.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Set the connection name for the queue.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setConnectionName">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.6</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>
