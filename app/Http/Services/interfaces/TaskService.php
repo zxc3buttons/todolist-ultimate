@@ -84,13 +84,15 @@ interface TaskService
      * @param string $name
      * @param int $categoryId
      * @param string $description
+     * @param int $projectId
      * @param int $statusId
+     * @param string $shouldBeEndedAt
      * @param string $attachedFileLink
      * @return Task
      */
-    public function createTask(int $userId, string $name, int $categoryId,
-                               string $description,
-                               int $statusId, string $attachedFileLink): Task;
+    public function create(int $userId, string $name, int $categoryId,
+                               string $description, int $projectId,
+                               int $statusId, string $shouldBeEndedAt, string $attachedFileLink): mixed;
 
     /**
      * Метод обновления задачи

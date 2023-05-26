@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3255962469e16ee8eee74eddb2ebd0f",
+    "content-hash": "e037e77bb70d46659fcd513bb7df800f",
     "packages": [
         {
             "name": "apigen/apigen",
